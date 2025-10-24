@@ -305,13 +305,6 @@ function selectCareer(index) {
 
     // Show next button
     nextBtnContainer.classList.remove('hidden');
-
-    // Check if we should show results (after 10 rounds)
-    if (round >= 10 && round % 10 === 0) {
-        setTimeout(() => {
-            showResults();
-        }, 3000);
-    }
 }
 
 // Reveal both salaries
