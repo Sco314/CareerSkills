@@ -395,6 +395,21 @@ function updateScoreDisplay() {
     correctEl.textContent = totalCorrect;
     roundEl.textContent = round;
     streakEl.textContent = streak;
+
+    // Show/hide student name and block inputs based on round
+    const studentNameInput = document.getElementById('studentName');
+    const studentBlockInput = document.getElementById('studentBlock');
+    const sendToTeacherBtn = document.getElementById('sendToTeacherBtn');
+
+    if (round > 20) {
+        studentNameInput.parentElement.classList.remove('hidden');
+        studentBlockInput.parentElement.classList.remove('hidden');
+        sendToTeacherBtn.parentElement.classList.remove('hidden');
+    } else {
+        studentNameInput.parentElement.classList.add('hidden');
+        studentBlockInput.parentElement.classList.add('hidden');
+        sendToTeacherBtn.parentElement.classList.add('hidden');
+    }
 }
 
 // Enable selection buttons
