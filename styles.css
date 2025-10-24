@@ -70,6 +70,39 @@ h1 {
     font-weight: 700;
 }
 
+.student-input {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    min-width: 120px;
+}
+
+.student-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.btn-teacher {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn-teacher:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
 /* Instructions */
 .instructions {
     background: white;
