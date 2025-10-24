@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Salary Comparison Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Career Salary Game</h1>
+            <p class="subtitle">Which career has the higher salary?</p>
+            <div class="score-container">
+                <div class="score-item">
+                    <span class="score-label">Score:</span>
+                    <span id="score" class="score-value">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Round:</span>
+                    <span id="round" class="score-value">1</span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Streak:</span>
+                    <span id="streak" class="score-value">0</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Instructions -->
+        <div id="instructions" class="instructions">
+            <div class="instructions-content">
+                <h2>How to Play</h2>
+                <p>1. Compare two careers side by side</p>
+                <p>2. Read about their education, job demand, and responsibilities</p>
+                <p>3. Click on the career you think has the HIGHER salary</p>
+                <p>4. See the actual salaries and learn something new!</p>
+                <button id="startBtn" class="btn btn-primary">Start Game</button>
+            </div>
+        </div>
+
+        <!-- Game Area -->
+        <div id="gameArea" class="game-area hidden">
+            <div class="careers-container">
+                <!-- Left Career Card -->
+                <div class="career-card" id="career1" data-index="0">
+                    <div class="career-header">
+                        <h2 id="title1" class="career-title"></h2>
+                    </div>
+                    <div class="career-body">
+                        <div class="career-section">
+                            <h3>Description</h3>
+                            <p id="description1" class="career-description"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Education Required</h3>
+                            <p id="education1" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Job Demand</h3>
+                            <p id="demand1" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Work Environment</h3>
+                            <p id="environment1" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Key Skills</h3>
+                            <p id="skills1" class="career-info"></p>
+                        </div>
+                        <div class="salary-reveal hidden" id="salary1-reveal">
+                            <div class="salary-amount">
+                                <span class="salary-label">Annual Salary:</span>
+                                <span id="salary1" class="salary-value"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="select-btn" id="selectBtn1">
+                        Select Higher Salary →
+                    </button>
+                </div>
+
+                <!-- VS Divider -->
+                <div class="vs-divider">
+                    <span>VS</span>
+                </div>
+
+                <!-- Right Career Card -->
+                <div class="career-card" id="career2" data-index="1">
+                    <div class="career-header">
+                        <h2 id="title2" class="career-title"></h2>
+                    </div>
+                    <div class="career-body">
+                        <div class="career-section">
+                            <h3>Description</h3>
+                            <p id="description2" class="career-description"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Education Required</h3>
+                            <p id="education2" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Job Demand</h3>
+                            <p id="demand2" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Work Environment</h3>
+                            <p id="environment2" class="career-info"></p>
+                        </div>
+                        <div class="career-section">
+                            <h3>Key Skills</h3>
+                            <p id="skills2" class="career-info"></p>
+                        </div>
+                        <div class="salary-reveal hidden" id="salary2-reveal">
+                            <div class="salary-amount">
+                                <span class="salary-label">Annual Salary:</span>
+                                <span id="salary2" class="salary-value"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="select-btn" id="selectBtn2">
+                        ← Select Higher Salary
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feedback Message -->
+            <div id="feedback" class="feedback hidden">
+                <div class="feedback-content">
+                    <h2 id="feedbackTitle"></h2>
+                    <p id="feedbackMessage"></p>
+                </div>
+            </div>
+
+            <!-- Next Button -->
+            <div id="nextBtnContainer" class="next-btn-container hidden">
+                <button id="nextBtn" class="btn btn-primary btn-large">
+                    Next Round →
+                </button>
+            </div>
+
+            <!-- Data Source Attribution -->
+            <div class="data-source">
+                <small>Data sources: U.S. Bureau of Labor Statistics (BLS), O*NET Online | Salaries are median annual wages</small>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="results-screen hidden">
+            <div class="results-content">
+                <h2>Game Complete!</h2>
+                <div class="final-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalScore">0</div>
+                        <div class="stat-label">Final Score</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalRounds">0</div>
+                        <div class="stat-label">Rounds Played</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalAccuracy">0%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalStreak">0</div>
+                        <div class="stat-label">Best Streak</div>
+                    </div>
+                </div>
+                <div class="results-message" id="resultsMessage"></div>
+                <div class="results-buttons">
+                    <button id="playAgainBtn" class="btn btn-primary btn-large">
+                        Play Again
+                    </button>
+                    <button id="viewStatsBtn" class="btn btn-secondary">
+                        Continue Playing
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
