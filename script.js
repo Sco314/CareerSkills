@@ -1,5 +1,7 @@
 // Game State
 let careers = [];
+let defaultCareers = [];
+let customCareers = [];
 let currentCareers = [];
 let usedCareerIds = [];
 let score = 0;
@@ -10,11 +12,17 @@ let totalCorrect = 0;
 let totalRounds = 0;
 let gameStarted = false;
 
+// API Configuration
+const API_URL = window.location.origin;
+
 // DOM Elements
 const instructionsEl = document.getElementById('instructions');
 const gameAreaEl = document.getElementById('gameArea');
 const resultsScreenEl = document.getElementById('resultsScreen');
+const addCareerSectionEl = document.getElementById('addCareerSection');
+const customCareersSectionEl = document.getElementById('customCareersSection');
 const startBtn = document.getElementById('startBtn');
+const addCareerBtn = document.getElementById('addCareerBtn');
 const nextBtn = document.getElementById('nextBtn');
 const nextBtnContainer = document.getElementById('nextBtnContainer');
 const feedbackEl = document.getElementById('feedback');
@@ -29,22 +37,61 @@ const streakEl = document.getElementById('streak');
 // Initialize the game
 async function init() {
     try {
+        // Load default careers from JSON
         const response = await fetch('data/careers.json');
-        careers = await response.json();
+        defaultCareers = await response.json();
 
-        // Event Listeners
+        // Load custom careers from localStorage
+        loadCustomCareers();
+
+        // Merge careers
+        mergeCareers();
+
+        // Event Listeners - Game Controls
         startBtn.addEventListener('click', startGame);
         nextBtn.addEventListener('click', nextRound);
         playAgainBtn.addEventListener('click', resetGame);
         viewStatsBtn.addEventListener('click', continueGame);
-
         document.getElementById('selectBtn1').addEventListener('click', () => selectCareer(0));
         document.getElementById('selectBtn2').addEventListener('click', () => selectCareer(1));
+
+        // Event Listeners - Custom Career Management
+        addCareerBtn.addEventListener('click', showAddCareerSection);
+        document.getElementById('cancelAddCareerBtn').addEventListener('click', hideAddCareerSection);
+        document.getElementById('addCareerForm').addEventListener('submit', handleAddCareer);
+        document.getElementById('viewCustomCareersBtn').addEventListener('click', showCustomCareersSection);
+        document.getElementById('backFromCustomCareersBtn').addEventListener('click', hideCustomCareersSection);
 
     } catch (error) {
         console.error('Error loading career data:', error);
         alert('Error loading career data. Please refresh the page.');
     }
+}
+
+// Load custom careers from localStorage
+function loadCustomCareers() {
+    const stored = localStorage.getItem('customCareers');
+    if (stored) {
+        try {
+            customCareers = JSON.parse(stored);
+            console.log(`Loaded ${customCareers.length} custom careers from storage`);
+        } catch (error) {
+            console.error('Error parsing custom careers:', error);
+            customCareers = [];
+        }
+    }
+}
+
+// Save custom careers to localStorage
+function saveCustomCareers() {
+    localStorage.setItem('customCareers', JSON.stringify(customCareers));
+}
+
+// Merge default and custom careers
+function mergeCareers() {
+    // Combine both arrays
+    careers = [...defaultCareers, ...customCareers];
+    console.log(`Total careers available: ${careers.length} (${defaultCareers.length} default + ${customCareers.length} custom)`);
 }
 
 // Start the game
@@ -314,6 +361,154 @@ function showResults() {
     } else {
         resultsMessage.textContent = "Keep learning! Career salaries can be surprising. Play more rounds to discover which careers earn more than you might expect!";
     }
+}
+
+// UI Navigation Functions
+function showAddCareerSection() {
+    instructionsEl.classList.add('hidden');
+    addCareerSectionEl.classList.remove('hidden');
+}
+
+function hideAddCareerSection() {
+    addCareerSectionEl.classList.add('hidden');
+    instructionsEl.classList.remove('hidden');
+    document.getElementById('careerUrl').value = '';
+    hideStatus();
+}
+
+function showCustomCareersSection() {
+    addCareerSectionEl.classList.add('hidden');
+    customCareersSectionEl.classList.remove('hidden');
+    renderCustomCareersList();
+}
+
+function hideCustomCareersSection() {
+    customCareersSectionEl.classList.add('hidden');
+    addCareerSectionEl.classList.remove('hidden');
+}
+
+// Handle add career form submission
+async function handleAddCareer(event) {
+    event.preventDefault();
+
+    const urlInput = document.getElementById('careerUrl');
+    const url = urlInput.value.trim();
+
+    if (!url) {
+        showStatus('Please enter a valid URL', 'error');
+        return;
+    }
+
+    // Validate BLS URL
+    if (!url.includes('bls.gov/ooh/')) {
+        showStatus('Please enter a valid BLS.gov Occupational Outlook Handbook URL', 'error');
+        return;
+    }
+
+    showStatus('Fetching career data from BLS.gov...', 'loading');
+
+    try {
+        const response = await fetch(`${API_URL}/api/scrape-career`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ url })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+            throw new Error(data.error || 'Failed to fetch career data');
+        }
+
+        // Generate a unique ID for the custom career
+        const newId = Date.now();
+        const newCareer = {
+            id: newId,
+            ...data,
+            isCustom: true
+        };
+
+        // Add to custom careers
+        customCareers.push(newCareer);
+        saveCustomCareers();
+        mergeCareers();
+
+        showStatus(`Successfully added "${newCareer.title}" to your career list!`, 'success');
+
+        // Clear the form
+        urlInput.value = '';
+
+        // Optionally redirect back to instructions after a delay
+        setTimeout(() => {
+            hideAddCareerSection();
+        }, 2000);
+
+    } catch (error) {
+        console.error('Error adding career:', error);
+        showStatus(error.message || 'Failed to add career. Please try again.', 'error');
+    }
+}
+
+// Render custom careers list
+function renderCustomCareersList() {
+    const listContainer = document.getElementById('customCareersList');
+
+    if (customCareers.length === 0) {
+        listContainer.innerHTML = '<p class="no-careers">You haven\'t added any custom careers yet.</p>';
+        return;
+    }
+
+    listContainer.innerHTML = customCareers.map(career => `
+        <div class="custom-career-item">
+            <div class="custom-career-info">
+                <h3>${career.title}</h3>
+                <p class="career-salary">${formatSalary(career.salary)}/year</p>
+                <p class="career-source"><a href="${career.source}" target="_blank" rel="noopener">View on BLS.gov</a></p>
+            </div>
+            <button class="btn btn-danger btn-small" onclick="deleteCustomCareer(${career.id})">Delete</button>
+        </div>
+    `).join('');
+}
+
+// Delete custom career
+function deleteCustomCareer(careerId) {
+    if (!confirm('Are you sure you want to delete this career?')) {
+        return;
+    }
+
+    customCareers = customCareers.filter(career => career.id !== careerId);
+    saveCustomCareers();
+    mergeCareers();
+    renderCustomCareersList();
+
+    // Clear used career IDs if we deleted a career that was in the pool
+    usedCareerIds = usedCareerIds.filter(id => id !== careerId);
+}
+
+// Show status message
+function showStatus(message, type = 'info') {
+    const statusEl = document.getElementById('scrapeStatus');
+    const messageEl = document.getElementById('scrapeMessage');
+
+    messageEl.textContent = message;
+    statusEl.className = 'scrape-status';
+    statusEl.classList.remove('hidden');
+
+    if (type === 'error') {
+        statusEl.classList.add('status-error');
+    } else if (type === 'success') {
+        statusEl.classList.add('status-success');
+    } else if (type === 'loading') {
+        statusEl.classList.add('status-loading');
+    }
+}
+
+// Hide status message
+function hideStatus() {
+    const statusEl = document.getElementById('scrapeStatus');
+    statusEl.classList.add('hidden');
 }
 
 // Initialize the game when page loads
