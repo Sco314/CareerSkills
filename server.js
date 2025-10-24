@@ -3,6 +3,7 @@ const cors = require('cors');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const path = require('path');
+const fs = require('fs').promises;
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -138,6 +139,63 @@ app.post('/api/scrape-career', async (req, res) => {
         console.error('Error scraping career data:', error);
         res.status(500).json({
             error: 'Failed to scrape career data. Please check the URL and try again.',
+            details: error.message
+        });
+    }
+});
+
+// API endpoint to save student records
+app.post('/api/save-record', async (req, res) => {
+    try {
+        const { name, block, correct, round, streak, timestamp } = req.body;
+
+        // Validate required fields
+        if (!name || !block) {
+            return res.status(400).json({
+                error: 'Name and block are required fields'
+            });
+        }
+
+        // Create record object
+        const record = {
+            name,
+            block,
+            correct: correct || 0,
+            round: round || 1,
+            streak: streak || 0,
+            timestamp: timestamp || new Date().toISOString()
+        };
+
+        const recordsFilePath = path.join(__dirname, 'student_records.json');
+
+        // Read existing records or create new array
+        let records = [];
+        try {
+            const fileContent = await fs.readFile(recordsFilePath, 'utf8');
+            records = JSON.parse(fileContent);
+        } catch (error) {
+            // File doesn't exist or is invalid, start with empty array
+            console.log('Creating new records file');
+        }
+
+        // Add new record
+        records.push(record);
+
+        // Write back to file
+        await fs.writeFile(recordsFilePath, JSON.stringify(records, null, 2), 'utf8');
+
+        console.log(`Record saved for ${name} (Block ${block}): ${correct} correct, Round ${round}`);
+
+        res.json({
+            success: true,
+            message: 'Record saved successfully',
+            record: record
+        });
+
+    } catch (error) {
+        console.error('Error saving record:', error);
+        res.status(500).json({
+            error: 'Failed to save record',
             details: error.message
         });
     }

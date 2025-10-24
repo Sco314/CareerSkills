@@ -1,3 +1,6 @@
+// API Configuration
+const API_URL = window.location.origin;
+
 // Game State
 let careers = [];
 let defaultCareers = [];
@@ -52,7 +55,7 @@ const playAgainBtn = document.getElementById('playAgainBtn');
 const viewStatsBtn = document.getElementById('viewStatsBtn');
 
 // Score Elements
-const scoreEl = document.getElementById('score');
+const correctEl = document.getElementById('correct');
 const roundEl = document.getElementById('round');
 const streakEl = document.getElementById('streak');
 
@@ -83,6 +86,9 @@ async function init() {
         document.getElementById('addCareerForm').addEventListener('submit', handleAddCareer);
         document.getElementById('viewCustomCareersBtn').addEventListener('click', showCustomCareersSection);
         document.getElementById('backFromCustomCareersBtn').addEventListener('click', hideCustomCareersSection);
+
+        // Event Listener - Send to Teacher
+        document.getElementById('sendToTeacherBtn').addEventListener('click', sendToTeacher);
 
     } catch (error) {
         console.error('Error loading career data:', error);
@@ -381,7 +387,7 @@ function nextRound() {
 
 // Update score display
 function updateScoreDisplay() {
-    scoreEl.textContent = score;
+    correctEl.textContent = totalCorrect;
     roundEl.textContent = round;
     streakEl.textContent = streak;
 }
@@ -569,6 +575,54 @@ function showStatus(message, type = 'info') {
 function hideStatus() {
     const statusEl = document.getElementById('scrapeStatus');
     statusEl.classList.add('hidden');
+}
+
+// Send results to teacher
+async function sendToTeacher() {
+    const name = document.getElementById('studentName').value.trim();
+    const block = document.getElementById('studentBlock').value.trim();
+
+    // Validate inputs
+    if (!name) {
+        alert('Please enter your name before sending to teacher.');
+        return;
+    }
+
+    if (!block) {
+        alert('Please enter your block/class period before sending to teacher.');
+        return;
+    }
+
+    // Prepare data to send
+    const recordData = {
+        name: name,
+        block: block,
+        correct: totalCorrect,
+        round: round,
+        streak: bestStreak,
+        timestamp: new Date().toISOString()
+    };
+
+    try {
+        const response = await fetch(`${API_URL}/api/save-record`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(recordData)
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+            throw new Error(data.error || 'Failed to save record');
+        }
+
+        alert('Your results have been sent to the teacher successfully!');
+    } catch (error) {
+        console.error('Error sending results:', error);
+        alert('Failed to send results to teacher. Please try again or contact your teacher.');
+    }
 }
 
 // Initialize the game when page loads
