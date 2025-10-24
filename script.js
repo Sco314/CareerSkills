@@ -164,6 +164,11 @@ function loadNewRound() {
     // Get two random careers
     currentCareers = getRandomCareers();
 
+    // Randomly swap the careers to ensure left/right positioning is random
+    if (Math.random() < 0.5) {
+        currentCareers = [currentCareers[1], currentCareers[0]];
+    }
+
     // Display careers
     displayCareer(currentCareers[0], 1);
     displayCareer(currentCareers[1], 2);
