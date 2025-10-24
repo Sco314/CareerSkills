@@ -28,6 +28,61 @@
             </div>
         </header>
 
+        <!-- Add Custom Career Section -->
+        <div id="addCareerSection" class="add-career-section hidden">
+            <div class="add-career-content">
+                <h2>Add Custom Career</h2>
+                <p class="section-description">Paste a BLS.gov Occupational Outlook Handbook URL to add a new career to the game.</p>
+
+                <form id="addCareerForm">
+                    <div class="form-group">
+                        <label for="careerUrl">BLS.gov Career URL</label>
+                        <input
+                            type="url"
+                            id="careerUrl"
+                            placeholder="https://www.bls.gov/ooh/math/actuaries.htm"
+                            required
+                        >
+                        <small class="form-help">Example: https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm</small>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-primary" id="scrapeCareerBtn">
+                            Add Career
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="cancelAddCareerBtn">
+                            Cancel
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="viewCustomCareersBtn">
+                            View My Careers
+                        </button>
+                    </div>
+
+                    <div id="scrapeStatus" class="scrape-status hidden">
+                        <p id="scrapeMessage"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Custom Careers List Section -->
+        <div id="customCareersSection" class="custom-careers-section hidden">
+            <div class="custom-careers-content">
+                <h2>My Custom Careers</h2>
+                <p class="section-description">Manage the careers you've added to the game.</p>
+
+                <div id="customCareersList" class="custom-careers-list">
+                    <!-- Custom careers will be populated here -->
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" class="btn btn-secondary" id="backFromCustomCareersBtn">
+                        Back
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- Instructions -->
         <div id="instructions" class="instructions">
             <div class="instructions-content">
@@ -36,7 +91,10 @@
                 <p>2. Read about their education, job demand, and responsibilities</p>
                 <p>3. Click on the career you think has the HIGHER salary</p>
                 <p>4. See the actual salaries and learn something new!</p>
-                <button id="startBtn" class="btn btn-primary">Start Game</button>
+                <div class="instructions-buttons">
+                    <button id="startBtn" class="btn btn-primary">Start Game</button>
+                    <button id="addCareerBtn" class="btn btn-secondary">Add Custom Career</button>
+                </div>
             </div>
         </div>
 
