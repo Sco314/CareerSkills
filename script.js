@@ -606,35 +606,36 @@ async function sendToTeacher() {
         return;
     }
 
-    // Prepare data to send
-    const recordData = {
-        name: name,
-        block: block,
-        correct: totalCorrect,
-        round: round,
-        streak: bestStreak,
-        timestamp: new Date().toISOString()
-    };
+    // Calculate accuracy
+    const accuracy = totalRounds > 0 ? ((totalCorrect / totalRounds) * 100).toFixed(1) : 0;
+
+    // Format the results as a readable message
+    const resultsText = `Career Skills Game - Student Results
+
+Student Name: ${name}
+Block/Class Period: ${block}
+Date: ${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}
+
+GAME STATISTICS:
+- Total Correct: ${totalCorrect}
+- Current Round: ${round}
+- Total Rounds Played: ${totalRounds}
+- Accuracy: ${accuracy}%
+- Best Streak: ${bestStreak}
+
+This student has completed the Career Skills salary comparison game.`;
 
     try {
-        const response = await fetch(`${API_URL}/api/save-record`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(recordData)
-        });
+        // Copy to clipboard
+        await navigator.clipboard.writeText(resultsText);
 
-        const data = await response.json();
-
-        if (!response.ok) {
-            throw new Error(data.error || 'Failed to save record');
-        }
-
-        alert('Your results have been sent to the teacher successfully!');
+        alert('Your results have been copied to the clipboard!\n\nYou can now paste them into an email or message to send to your teacher.');
     } catch (error) {
-        console.error('Error sending results:', error);
-        alert('Failed to send results to teacher. Please try again or contact your teacher.');
+        // Fallback if clipboard API fails
+        console.error('Error copying to clipboard:', error);
+
+        // Show results in an alert as fallback
+        alert(`Please copy the following results and send them to your teacher:\n\n${resultsText}`);
     }
 }
 
