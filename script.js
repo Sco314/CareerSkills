@@ -213,12 +213,6 @@ function selectCareer(index) {
 
 // Reveal both salaries
 function revealSalaries() {
-    // Show salaries in the bottom reveal section (keep for now)
-    document.getElementById('salary1-reveal').classList.remove('hidden');
-    document.getElementById('salary2-reveal').classList.remove('hidden');
-    document.getElementById('salary1').textContent = formatSalary(currentCareers[0].salary);
-    document.getElementById('salary2').textContent = formatSalary(currentCareers[1].salary);
-
     // Hide select buttons and show salary in header
     document.getElementById('selectBtn1').classList.add('hidden');
     document.getElementById('selectBtn2').classList.add('hidden');
@@ -624,10 +618,6 @@ function loadNewRound() {
     // Reset card states
     document.getElementById('career1').classList.remove('correct', 'incorrect', 'disabled');
     document.getElementById('career2').classList.remove('correct', 'incorrect', 'disabled');
-
-    // Hide salary reveals
-    document.getElementById('salary1-reveal').classList.add('hidden');
-    document.getElementById('salary2-reveal').classList.add('hidden');
 
     // Update round display
     updateScoreDisplay();
