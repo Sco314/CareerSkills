@@ -548,6 +548,24 @@ h1 {
     min-width: 100px;
 }
 
+/* Salary display in header (replaces button after selection) */
+.salary-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 25px;
+    min-width: 100px;
+}
+
+.salary-value-inline {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* Feedback */
 .feedback {
     background: white;
@@ -773,8 +791,8 @@ h1 {
     }
 
     .score-item {
-        gap: 3px;
-        flex-direction: column;
+        gap: 5px;
+        flex-direction: row;
         text-align: center;
     }
 
@@ -783,7 +801,7 @@ h1 {
     }
 
     .score-value {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .student-input {
@@ -1050,7 +1068,7 @@ h1 {
     }
 
     .score-value {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 
     .student-input {
@@ -1320,7 +1338,7 @@ h1 {
     }
 
     .score-value {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 
     .career-section h3 {

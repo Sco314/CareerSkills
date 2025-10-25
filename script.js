@@ -211,11 +211,17 @@ function selectCareer(index) {
     nextBtnContainer.classList.remove('hidden');
 }
 
-// Reveal both salaries
+// Reveal both salaries (in header button area)
 function revealSalaries() {
-    document.getElementById('salary1-reveal').classList.remove('hidden');
-    document.getElementById('salary2-reveal').classList.remove('hidden');
+    // Hide select buttons
+    document.getElementById('selectBtn1').classList.add('hidden');
+    document.getElementById('selectBtn2').classList.add('hidden');
 
+    // Show salary displays in header
+    document.getElementById('salary1-display').classList.remove('hidden');
+    document.getElementById('salary2-display').classList.remove('hidden');
+
+    // Set salary values
     document.getElementById('salary1').textContent = formatSalary(currentCareers[0].salary);
     document.getElementById('salary2').textContent = formatSalary(currentCareers[1].salary);
 }
@@ -599,9 +605,11 @@ function loadNewRound() {
     document.getElementById('career1').classList.remove('correct', 'incorrect', 'disabled');
     document.getElementById('career2').classList.remove('correct', 'incorrect', 'disabled');
 
-    // Hide salary reveals
-    document.getElementById('salary1-reveal').classList.add('hidden');
-    document.getElementById('salary2-reveal').classList.add('hidden');
+    // Show select buttons, hide salary displays
+    document.getElementById('selectBtn1').classList.remove('hidden');
+    document.getElementById('selectBtn2').classList.remove('hidden');
+    document.getElementById('salary1-display').classList.add('hidden');
+    document.getElementById('salary2-display').classList.add('hidden');
 
     // Update round display
     updateScoreDisplay();
