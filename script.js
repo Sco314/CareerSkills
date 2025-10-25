@@ -376,29 +376,57 @@ function hideCustomCareersSection() {
     addCareerSectionEl.classList.remove('hidden');
 }
 
+// Preprocess and normalize BLS URL input
+function normalizeBlsUrl(url) {
+    // Trim whitespace
+    url = url.trim();
+
+    // Convert to lowercase for consistency
+    url = url.toLowerCase();
+
+    // Ensure https protocol
+    if (url.startsWith('http://')) {
+        url = url.replace('http://', 'https://');
+    }
+
+    // Add www. if missing
+    if (url.match(/^https?:\/\/bls\.gov/)) {
+        url = url.replace(/^(https?:\/\/)bls\.gov/, '$1www.bls.gov');
+    }
+
+    return url;
+}
+
 // Handle add career form submission
 async function handleAddCareer(event) {
     event.preventDefault();
 
     const urlInput = document.getElementById('careerUrl');
-    let url = urlInput.value.trim();
 
-    if (!url) {
+    if (!urlInput.value.trim()) {
         showStatus('Please enter a valid URL', 'error');
         return;
     }
 
     // Auto-prepend https:// if protocol is missing
+    let url = urlInput.value.trim();
     if (!/^https?:\/\//i.test(url)) {
         url = 'https://' + url;
     }
+
+    // Normalize URL before submission
+    const normalizedUrl = normalizeBlsUrl(url);
+    urlInput.value = normalizedUrl; // Update input field
+
+    // Log for diagnostics
+    console.log('✅ Normalized BLS URL:', normalizedUrl);
 
     // Validate BLS URL with comprehensive regex
     // Allows any OOH occupation page: https://www.bls.gov/ooh/category/occupation-name.htm
     // Relaxed pattern to accept any characters in the path (periods, parentheses, etc.)
     const blsUrlPattern = /^https?:\/\/(www\.)?bls\.gov\/ooh\/.+\.htm\/?(\?.*|#.*)?$/i;
 
-    if (!blsUrlPattern.test(url)) {
+    if (!blsUrlPattern.test(normalizedUrl)) {
         showStatus('Please enter a valid BLS.gov Occupational Outlook Handbook URL ending in .htm', 'error');
         return;
     }
@@ -411,7 +439,7 @@ async function handleAddCareer(event) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ url })
+            body: JSON.stringify({ url: normalizedUrl })
         });
 
         const data = await response.json();

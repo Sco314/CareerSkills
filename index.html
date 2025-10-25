@@ -43,9 +43,12 @@
                     <div class="form-group">
                         <label for="careerUrl">BLS.gov Career URL</label>
                         <input
-                            type="text"
+                            type="url"
                             id="careerUrl"
-                            placeholder="https://www.bls.gov/ooh/math/actuaries.htm"
+                            name="career-url"
+                            pattern="https?://(www\.)?bls\.gov/ooh/.*"
+                            title="Please enter a valid BLS.gov Occupational Outlook Handbook URL (e.g., https://www.bls.gov/ooh/healthcare/nurses.htm)"
+                            placeholder="https://www.bls.gov/ooh/..."
                             required
                         >
                         <small class="form-help">Example: https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm</small>
