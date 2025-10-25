@@ -155,39 +155,6 @@ function resetGame() {
     loadNewRound();
 }
 
-// Load a new round with two random careers
-function loadNewRound() {
-    // Reset UI
-    feedbackEl.classList.add('hidden');
-    nextBtnContainer.classList.add('hidden');
-
-    // Get two random careers
-    currentCareers = getRandomCareers();
-
-    // Randomly swap the careers to ensure left/right positioning is random
-    if (Math.random() < 0.5) {
-        currentCareers = [currentCareers[1], currentCareers[0]];
-    }
-
-    // Display careers
-    displayCareer(currentCareers[0], 1);
-    displayCareer(currentCareers[1], 2);
-
-    // Enable buttons
-    enableButtons();
-
-    // Reset card states
-    document.getElementById('career1').classList.remove('correct', 'incorrect', 'disabled');
-    document.getElementById('career2').classList.remove('correct', 'incorrect', 'disabled');
-
-    // Hide salary reveals
-    document.getElementById('salary1-reveal').classList.add('hidden');
-    document.getElementById('salary2-reveal').classList.add('hidden');
-
-    // Update round display
-    updateScoreDisplay();
-}
-
 // Helper function to find a career by title (case-insensitive)
 function findCareerByTitle(title) {
     return careers.find(career =>
@@ -639,5 +606,66 @@ This student has completed the Career Skills salary comparison game.`;
     }
 }
 
+// Initialize collapsible sections
+function initCollapsibles() {
+    const headers = document.querySelectorAll('.collapsible-header');
+    headers.forEach(header => {
+        header.addEventListener('click', function() {
+            const parent = this.closest('.collapsible');
+            parent.classList.toggle('collapsed');
+        });
+    });
+}
+
+// Collapse all sections on mobile devices
+function collapseAllOnMobile() {
+    if (window.innerWidth <= 768) {
+        const collapsibles = document.querySelectorAll('.collapsible');
+        collapsibles.forEach(section => {
+            section.classList.add('collapsed');
+        });
+    }
+}
+
+// Load a new round with two random careers
+function loadNewRound() {
+    // Reset UI
+    feedbackEl.classList.add('hidden');
+    nextBtnContainer.classList.add('hidden');
+
+    // Get two random careers
+    currentCareers = getRandomCareers();
+
+    // Randomly swap the careers to ensure left/right positioning is random
+    if (Math.random() < 0.5) {
+        currentCareers = [currentCareers[1], currentCareers[0]];
+    }
+
+    // Display careers
+    displayCareer(currentCareers[0], 1);
+    displayCareer(currentCareers[1], 2);
+
+    // Enable buttons
+    enableButtons();
+
+    // Reset card states
+    document.getElementById('career1').classList.remove('correct', 'incorrect', 'disabled');
+    document.getElementById('career2').classList.remove('correct', 'incorrect', 'disabled');
+
+    // Hide salary reveals
+    document.getElementById('salary1-reveal').classList.add('hidden');
+    document.getElementById('salary2-reveal').classList.add('hidden');
+
+    // Update round display
+    updateScoreDisplay();
+
+    // Collapse sections on mobile
+    collapseAllOnMobile();
+}
+
 // Initialize the game when page loads
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    initCollapsibles();
+    collapseAllOnMobile();
+});

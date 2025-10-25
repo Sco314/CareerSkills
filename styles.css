@@ -631,12 +631,52 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* Collapsible Sections */
+.collapsible-header {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    padding: 8px 0;
+}
+
+.collapsible-header:hover {
+    color: #764ba2;
+}
+
+.collapse-icon {
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+    margin-left: 8px;
+}
+
+.collapsible.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+
+.collapsible-content {
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+    opacity: 1;
+}
+
+.collapsible.collapsed .collapsible-content {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+}
+
 /* Utility Classes */
 .hidden {
     display: none !important;
 }
 
 /* Responsive Design */
+
+/* Tablet and smaller screens */
 @media (max-width: 1024px) {
     .careers-container {
         grid-template-columns: 1fr;
@@ -667,51 +707,679 @@ h1 {
     }
 }
 
+/* Mobile devices (tablets in portrait and smaller) */
 @media (max-width: 768px) {
     body {
+        padding: 8px;
+        align-items: flex-start;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    header {
         padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
     }
 
     h1 {
-        font-size: 1.8em;
+        font-size: 1.3em;
+        margin-bottom: 5px;
     }
 
     .subtitle {
-        font-size: 1em;
+        font-size: 0.85em;
+        margin-bottom: 5px;
     }
 
     .score-container {
-        gap: 20px;
+        gap: 12px;
+        justify-content: space-around;
+    }
+
+    .score-item {
+        gap: 3px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .score-label {
+        font-size: 0.75em;
     }
 
     .score-value {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
+    .student-input {
+        min-width: 90px;
+        font-size: 0.8em;
+        padding: 5px 8px;
+    }
+
+    .btn-teacher {
+        padding: 6px 12px;
+        font-size: 0.75em;
+    }
+
+    /* Compact career cards for mobile */
     .career-card {
-        padding: 20px;
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .career-header {
+        padding-bottom: 8px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #667eea;
     }
 
     .career-title {
-        font-size: 1.3em;
+        font-size: 1.1em;
+        line-height: 1.3;
+    }
+
+    .career-section {
+        margin-bottom: 8px;
+    }
+
+    .career-section h3 {
+        font-size: 0.9em;
+        margin-bottom: 4px;
+        padding: 6px 0;
+    }
+
+    /* Collapse all sections by default on mobile */
+    .collapsible {
+        margin-bottom: 5px;
+    }
+
+    .collapsible.collapsed .collapsible-content {
+        max-height: 0;
+        margin-bottom: 0;
+    }
+
+    .collapsible-header {
+        padding: 6px 0;
+        font-size: 0.9em;
+    }
+
+    .collapse-icon {
+        font-size: 0.7em;
+    }
+
+    .career-description,
+    .career-info {
+        font-size: 0.85em;
+        line-height: 1.4;
+    }
+
+    .salary-reveal {
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .salary-label {
+        font-size: 0.85em;
+    }
+
+    .salary-value {
+        font-size: 1.5em;
     }
 
     .btn {
-        padding: 12px 24px;
-        font-size: 1em;
+        padding: 10px 20px;
+        font-size: 0.9em;
     }
 
     .btn-large {
-        padding: 15px 30px;
-        font-size: 1.1em;
+        padding: 12px 25px;
+        font-size: 1em;
     }
 
-    .instructions {
-        padding: 25px;
+    .select-btn {
+        padding: 12px;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .instructions,
+    .add-career-section,
+    .custom-careers-section {
+        padding: 20px;
+    }
+
+    .instructions-content h2,
+    .add-career-content h2,
+    .custom-careers-content h2 {
+        font-size: 1.5em;
+    }
+
+    .instructions-content p {
+        font-size: 0.95em;
+        padding-left: 12px;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-buttons .btn {
+        width: 100%;
+    }
+
+    .custom-career-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .custom-career-info h3 {
+        font-size: 1.1em;
     }
 
     .final-stats {
         grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .stat-item {
+        padding: 15px;
+    }
+
+    .stat-value {
+        font-size: 1.8em;
+    }
+
+    .results-content h2 {
+        font-size: 1.8em;
+    }
+
+    .results-message {
+        font-size: 1em;
+    }
+
+    .results-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .results-buttons .btn {
+        width: 100%;
+    }
+
+    .vs-column {
+        margin: 10px 0;
+    }
+
+    .vs-divider {
+        font-size: 1.5em;
+        padding: 10px;
+        min-height: 50px;
+    }
+
+    .btn-next {
+        font-size: 1em;
+        padding: 12px;
+        min-height: 60px;
+    }
+
+    .feedback {
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    .feedback-content h2 {
+        font-size: 1.3em;
+        margin-bottom: 8px;
+    }
+
+    .feedback-content p {
+        font-size: 0.9em;
+    }
+
+    .data-source {
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .data-source small {
+        font-size: 0.75em;
+    }
+
+    .careers-container {
+        gap: 10px;
+    }
+}
+
+/* Small mobile devices (phones in portrait) */
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    .container {
+        margin-top: 5px;
+    }
+
+    header {
+        padding: 8px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        margin-bottom: 3px;
+    }
+
+    .subtitle {
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+
+    .score-container {
+        gap: 8px;
+    }
+
+    .score-label {
+        font-size: 0.7em;
+    }
+
+    .score-value {
+        font-size: 1.1em;
+    }
+
+    .student-input {
+        min-width: 75px;
+        font-size: 0.75em;
+        padding: 4px 6px;
+    }
+
+    .btn-teacher {
+        padding: 5px 10px;
+        font-size: 0.7em;
+    }
+
+    /* Ultra-compact career cards */
+    .career-card {
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+    }
+
+    .career-header {
+        padding-bottom: 6px;
+        margin-bottom: 8px;
+        border-bottom: 2px solid #667eea;
+    }
+
+    .career-title {
+        font-size: 1em;
+        line-height: 1.2;
+    }
+
+    .career-section {
+        margin-bottom: 3px;
+    }
+
+    .career-section h3 {
+        font-size: 0.85em;
+        margin-bottom: 2px;
+        padding: 5px 0;
+    }
+
+    .collapsible-header {
+        padding: 5px 0;
+    }
+
+    .career-description,
+    .career-info {
+        font-size: 0.8em;
+        line-height: 1.3;
+    }
+
+    .salary-reveal {
+        padding: 8px;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
+
+    .salary-label {
+        font-size: 0.8em;
+    }
+
+    .salary-value {
+        font-size: 1.4em;
+    }
+
+    .select-btn {
+        padding: 10px;
+        font-size: 0.95em;
+        margin-top: 8px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.85em;
+        letter-spacing: 0.3px;
+    }
+
+    .btn-large {
+        padding: 10px 20px;
+        font-size: 0.95em;
+    }
+
+    .instructions,
+    .add-career-section,
+    .custom-careers-section,
+    .results-screen {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .instructions-content h2,
+    .add-career-content h2,
+    .custom-careers-content h2 {
+        font-size: 1.3em;
+        margin-bottom: 12px;
+    }
+
+    .instructions-content p {
+        font-size: 0.9em;
+        margin: 8px 0;
+        padding-left: 8px;
+    }
+
+    .instructions-buttons {
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .section-description {
+        font-size: 0.85em;
+        margin-bottom: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        padding: 8px 10px;
+        font-size: 0.9em;
+    }
+
+    .form-help {
+        font-size: 0.75em;
+    }
+
+    .custom-career-item {
+        padding: 10px;
+    }
+
+    .custom-career-info h3 {
+        font-size: 1em;
+    }
+
+    .career-salary {
+        font-size: 1em;
+    }
+
+    .career-source a {
+        font-size: 0.8em;
+    }
+
+    .btn-small {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+
+    .feedback {
+        padding: 12px;
+        margin: 8px 0;
+        border-radius: 8px;
+    }
+
+    .feedback-content h2 {
+        font-size: 1.2em;
+        margin-bottom: 8px;
+    }
+
+    .feedback-content p {
+        font-size: 0.85em;
+    }
+
+    .final-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .stat-item {
+        padding: 12px 8px;
+        border-radius: 6px;
+    }
+
+    .stat-value {
+        font-size: 1.5em;
+        margin-bottom: 4px;
+    }
+
+    .stat-label {
+        font-size: 0.8em;
+    }
+
+    .results-content h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .results-message {
+        font-size: 0.95em;
+        margin: 15px 0;
+    }
+
+    .vs-column {
+        gap: 8px;
+        margin: 8px 0;
+    }
+
+    .vs-divider {
+        font-size: 1.4em;
+        padding: 8px;
+        min-height: 40px;
+    }
+
+    .btn-next {
+        font-size: 0.95em;
+        padding: 10px;
+        min-height: 50px;
+        border-radius: 10px;
+    }
+
+    .data-source {
+        padding: 6px;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
+
+    .data-source small {
+        font-size: 0.7em;
+    }
+
+    .careers-container {
+        gap: 8px;
+    }
+}
+
+/* Extra small devices and better touch targets */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .career-title {
+        font-size: 1.1em;
+    }
+
+    .score-container {
+        gap: 8px;
+    }
+
+    .score-label {
+        font-size: 0.7em;
+    }
+
+    .score-value {
+        font-size: 1.1em;
+    }
+
+    .career-section h3 {
+        font-size: 0.9em;
+    }
+
+    .career-description,
+    .career-info {
+        font-size: 0.85em;
+    }
+
+    .final-stats {
+        gap: 8px;
+    }
+
+    .stat-item {
+        padding: 12px 8px;
+    }
+
+    .stat-value {
+        font-size: 1.4em;
+    }
+
+    .stat-label {
+        font-size: 0.8em;
+    }
+}
+
+/* Landscape orientation for mobile devices */
+@media (max-width: 896px) and (orientation: landscape) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px 15px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        margin-bottom: 3px;
+    }
+
+    .subtitle {
+        font-size: 0.85em;
+        margin-bottom: 5px;
+    }
+
+    .score-container {
+        gap: 15px;
+    }
+
+    .score-item {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .career-card {
+        padding: 15px;
+    }
+
+    .career-section {
+        margin-bottom: 10px;
+    }
+
+    .instructions,
+    .add-career-section,
+    .custom-careers-section,
+    .results-screen {
+        padding: 20px;
+    }
+
+    .vs-divider {
+        min-height: 40px;
+        padding: 10px;
+    }
+
+    .btn-next {
+        min-height: 50px;
+        padding: 10px;
+    }
+}
+
+/* Touch-friendly improvements for mobile devices */
+@media (hover: none) and (pointer: coarse) {
+    /* Better touch targets - minimum 44x44px */
+    .btn,
+    .select-btn,
+    button {
+        min-height: 44px;
+        -webkit-tap-highlight-color: rgba(102, 126, 234, 0.2);
+    }
+
+    /* Prevent text selection on buttons for better UX */
+    .btn,
+    .select-btn,
+    button,
+    .vs-divider {
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+    }
+
+    /* Smooth scrolling on mobile */
+    body {
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Remove hover effects on touch devices */
+    .career-card:hover {
+        transform: none;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover,
+    .select-btn:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    /* Add active states for touch feedback */
+    .btn:active,
+    .select-btn:active {
+        transform: scale(0.98);
+        opacity: 0.9;
+    }
+
+    .career-card {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Improve input focus on mobile */
+    input:focus,
+    textarea:focus {
+        font-size: 16px;
     }
 }
 
