@@ -617,12 +617,24 @@ function initCollapsibles() {
     });
 }
 
-// Collapse all sections on mobile devices
+// Collapse all sections on mobile devices (keep first 3 expanded)
 function collapseAllOnMobile() {
     if (window.innerWidth <= 768) {
-        const collapsibles = document.querySelectorAll('.collapsible');
-        collapsibles.forEach(section => {
-            section.classList.add('collapsed');
+        // Get all collapsible sections for both career cards
+        const career1Sections = document.querySelectorAll('#career1 .collapsible');
+        const career2Sections = document.querySelectorAll('#career2 .collapsible');
+
+        // For each career card, collapse sections after the first 3 (Description, Education, Demand)
+        [career1Sections, career2Sections].forEach(sections => {
+            sections.forEach((section, index) => {
+                // Collapse sections 3 and 4 (Work Environment and Key Skills)
+                if (index >= 3) {
+                    section.classList.add('collapsed');
+                } else {
+                    // Ensure first 3 sections are expanded
+                    section.classList.remove('collapsed');
+                }
+            });
         });
     }
 }
