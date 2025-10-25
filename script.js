@@ -60,6 +60,8 @@ async function init() {
         addCareerBtn.addEventListener('click', showAddCareerSection);
         document.getElementById('cancelAddCareerBtn').addEventListener('click', hideAddCareerSection);
         document.getElementById('addCareerForm').addEventListener('submit', handleAddCareer);
+        // Disable HTML5 validation to use our JavaScript validation instead
+        document.getElementById('addCareerForm').setAttribute('novalidate', 'true');
         document.getElementById('viewCustomCareersBtn').addEventListener('click', showCustomCareersSection);
         document.getElementById('backFromCustomCareersBtn').addEventListener('click', hideCustomCareersSection);
 
