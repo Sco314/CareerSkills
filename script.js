@@ -209,9 +209,6 @@ function selectCareer(index) {
 
     // Update display
     updateScoreDisplay();
-
-    // Show next button
-    nextBtnContainer.classList.remove('hidden');
 }
 
 // Reveal both salaries
@@ -594,7 +591,6 @@ function loadNewRound() {
     // Reset UI
     questionTextEl.classList.remove('hidden');
     centerFeedbackEl.classList.add('hidden');
-    nextBtnContainer.classList.add('hidden');
 
     // Get two random careers
     currentCareers = getRandomCareers();
