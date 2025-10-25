@@ -155,7 +155,9 @@ function getRandomCareers() {
 
 // Display career information
 function displayCareer(career, position) {
-    document.getElementById(`title${position}`).textContent = career.title;
+    const titleElement = document.getElementById(`title${position}`);
+    const titleTextSpan = titleElement.querySelector('.career-title-text');
+    titleTextSpan.textContent = career.title;
     document.getElementById(`description${position}`).textContent = career.description;
     document.getElementById(`education${position}`).textContent = career.education;
     document.getElementById(`demand${position}`).textContent = career.demand;
