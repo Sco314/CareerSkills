@@ -11,7 +11,6 @@
         <!-- Header -->
         <header>
             <h1>Career Salary Game</h1>
-            <p class="subtitle">Which career has the higher salary?</p>
             <div class="score-container">
                 <div class="score-item">
                     <span class="score-label">Correct:</span>
@@ -114,6 +113,9 @@
                 <div class="career-card" id="career1" data-index="0">
                     <div class="career-header">
                         <h2 id="title1" class="career-title"></h2>
+                        <button class="select-btn select-btn-compact" id="selectBtn1">
+                            Select →
+                        </button>
                     </div>
                     <div class="career-body">
                         <div class="career-section collapsible">
@@ -153,15 +155,15 @@
                             </div>
                         </div>
                     </div>
-                    <button class="select-btn" id="selectBtn1">
-                        Select Higher Salary →
-                    </button>
                 </div>
 
                 <!-- VS Divider and Next Button Column -->
                 <div class="vs-column">
                     <div class="vs-divider">
-                        <span>VS</span>
+                        <div class="vs-content">
+                            <span class="vs-text">Which career has the higher salary?</span>
+                            <span class="vs-icons">⬆️❔⬇️</span>
+                        </div>
                     </div>
                     <!-- Next Button -->
                     <div id="nextBtnContainer" class="next-btn-container hidden">
@@ -175,6 +177,9 @@
                 <div class="career-card" id="career2" data-index="1">
                     <div class="career-header">
                         <h2 id="title2" class="career-title"></h2>
+                        <button class="select-btn select-btn-compact" id="selectBtn2">
+                            ← Select
+                        </button>
                     </div>
                     <div class="career-body">
                         <div class="career-section collapsible">
@@ -214,9 +219,6 @@
                             </div>
                         </div>
                     </div>
-                    <button class="select-btn" id="selectBtn2">
-                        ← Select Higher Salary
-                    </button>
                 </div>
             </div>
 
