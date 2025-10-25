@@ -113,6 +113,9 @@
                         <button class="select-btn select-btn-compact" id="selectBtn1">
                             ← Select
                         </button>
+                        <button class="select-btn select-btn-compact salary-display hidden" id="headerSalary1" disabled>
+                            <span id="headerSalary1Value" class="salary-value-compact"></span>
+                        </button>
                     </div>
                     <div class="career-body">
                         <div class="career-section collapsible">
@@ -157,7 +160,13 @@
                 <div class="vs-column">
                     <div class="vs-divider">
                         <div class="vs-content">
-                            <span class="vs-text">⬆️ Which career has the higher salary?⬇️</span>
+                            <!-- Question text shown during selection -->
+                            <span id="questionText" class="vs-text">⬆️ Which career has the higher salary?⬇️</span>
+                            <!-- Feedback shown after selection (hidden initially) -->
+                            <div id="centerFeedback" class="center-feedback hidden">
+                                <h2 id="centerFeedbackTitle"></h2>
+                                <p id="centerFeedbackMessage"></p>
+                            </div>
                         </div>
                     </div>
                     <!-- Next Button -->
@@ -174,6 +183,9 @@
                         <h2 id="title2" class="career-title"><span class="career-title-text"></span></h2>
                         <button class="select-btn select-btn-compact" id="selectBtn2">
                             ← Select
+                        </button>
+                        <button class="select-btn select-btn-compact salary-display hidden" id="headerSalary2" disabled>
+                            <span id="headerSalary2Value" class="salary-value-compact"></span>
                         </button>
                     </div>
                     <div class="career-body">
@@ -213,14 +225,6 @@
                             </button>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Feedback Message -->
-            <div id="feedback" class="feedback hidden">
-                <div class="feedback-content">
-                    <h2 id="feedbackTitle"></h2>
-                    <p id="feedbackMessage"></p>
                 </div>
             </div>
 
