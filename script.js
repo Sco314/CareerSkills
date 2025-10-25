@@ -395,7 +395,8 @@ async function handleAddCareer(event) {
 
     // Validate BLS URL with comprehensive regex
     // Allows any OOH occupation page: https://www.bls.gov/ooh/category/occupation-name.htm
-    const blsUrlPattern = /^https?:\/\/(www\.)?bls\.gov\/ooh\/[A-Za-z0-9\-\/_]+\.htm\/?(\?.*|#.*)?$/i;
+    // Relaxed pattern to accept any characters in the path (periods, parentheses, etc.)
+    const blsUrlPattern = /^https?:\/\/(www\.)?bls\.gov\/ooh\/.+\.htm\/?(\?.*|#.*)?$/i;
 
     if (!blsUrlPattern.test(url)) {
         showStatus('Please enter a valid BLS.gov Occupational Outlook Handbook URL ending in .htm', 'error');
