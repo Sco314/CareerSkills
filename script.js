@@ -1,8 +1,7 @@
 // API Configuration
-// IMPORTANT: Update this URL after deploying the backend to Render
-// Example: const API_URL = 'https://career-skills-api.onrender.com';
+// Backend deployed on Render.com (service ID: srv-d3ul8nbe5dus739pb48g)
 // For local development, use: const API_URL = 'http://localhost:3000';
-const API_URL = window.location.origin; // Change this to your Render backend URL
+const API_URL = 'https://careerskills.onrender.com';
 
 // Game State
 let careers = [];
