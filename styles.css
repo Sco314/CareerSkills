@@ -432,7 +432,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     text-align: center;
 }
 
@@ -751,7 +751,7 @@ h1 {
     }
 
     header {
-        padding: 10px;
+        padding: 7px 8px;
         margin-bottom: 10px;
         border-radius: 10px;
     }
@@ -798,16 +798,16 @@ h1 {
 
     /* Compact career cards for mobile */
     .career-card {
-        padding: 12px;
+        padding: 10px 12px;
         margin-bottom: 10px;
         border-radius: 10px;
     }
 
     .career-header {
-        padding-bottom: 8px;
-        margin-bottom: 10px;
+        padding-bottom: 6px;
+        margin-bottom: 8px;
         border-bottom: 2px solid #667eea;
-        gap: 10px;
+        gap: 8px;
         flex-wrap: wrap;
     }
 
@@ -817,20 +817,20 @@ h1 {
     }
 
     .select-btn-compact {
-        padding: 8px 14px;
-        font-size: 0.85em;
-        min-width: 100px;
+        padding: 7px 12px;
+        font-size: 0.8em;
+        min-width: 95px;
         border-radius: 20px;
     }
 
     .career-section {
-        margin-bottom: 8px;
+        margin-bottom: 5px;
     }
 
     .career-section h3 {
         font-size: 0.9em;
-        margin-bottom: 4px;
-        padding: 6px 0;
+        margin-bottom: 3px;
+        padding: 4px 0;
     }
 
     /* Collapse all sections by default on mobile */
@@ -956,20 +956,20 @@ h1 {
     }
 
     .vs-column {
-        margin: 10px 0;
+        margin: 8px 0;
     }
 
     .vs-divider {
-        padding: 10px;
-        min-height: 50px;
+        padding: 8px;
+        min-height: 45px;
     }
 
     .vs-text {
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
 
     .vs-icons {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .btn-next {
@@ -1004,7 +1004,7 @@ h1 {
     }
 
     .careers-container {
-        gap: 10px;
+        gap: 8px;
     }
 }
 
@@ -1019,7 +1019,7 @@ h1 {
     }
 
     header {
-        padding: 8px;
+        padding: 6px 7px;
         margin-bottom: 8px;
         border-radius: 8px;
     }
@@ -1059,16 +1059,16 @@ h1 {
 
     /* Ultra-compact career cards */
     .career-card {
-        padding: 10px;
+        padding: 8px 10px;
         margin-bottom: 8px;
         border-radius: 8px;
     }
 
     .career-header {
-        padding-bottom: 6px;
-        margin-bottom: 8px;
+        padding-bottom: 5px;
+        margin-bottom: 6px;
         border-bottom: 2px solid #667eea;
-        gap: 8px;
+        gap: 6px;
     }
 
     .career-title {
@@ -1077,20 +1077,20 @@ h1 {
     }
 
     .select-btn-compact {
-        padding: 6px 12px;
-        font-size: 0.8em;
-        min-width: 90px;
+        padding: 5px 10px;
+        font-size: 0.75em;
+        min-width: 85px;
         border-radius: 18px;
     }
 
     .career-section {
-        margin-bottom: 3px;
+        margin-bottom: 2px;
     }
 
     .career-section h3 {
         font-size: 0.85em;
         margin-bottom: 2px;
-        padding: 5px 0;
+        padding: 3px 0;
     }
 
     .collapsible-header {
@@ -1249,21 +1249,21 @@ h1 {
     }
 
     .vs-column {
-        gap: 8px;
-        margin: 8px 0;
+        gap: 6px;
+        margin: 6px 0;
     }
 
     .vs-divider {
-        padding: 8px;
-        min-height: 40px;
+        padding: 6px;
+        min-height: 35px;
     }
 
     .vs-text {
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
 
     .vs-icons {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .btn-next {
@@ -1284,7 +1284,7 @@ h1 {
     }
 
     .careers-container {
-        gap: 8px;
+        gap: 6px;
     }
 }
 
