@@ -459,6 +459,37 @@ h1 {
     font-size: 1.5em;
 }
 
+/* Center Feedback in VS Divider */
+.center-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.center-feedback h2 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.center-feedback h2.correct {
+    color: #4caf50;
+}
+
+.center-feedback h2.incorrect {
+    color: #f44336;
+}
+
+.center-feedback p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+    color: white;
+}
+
 /* Salary Reveal */
 .salary-reveal {
     display: flex;
@@ -983,6 +1014,14 @@ h1 {
         font-size: 1.1em;
     }
 
+    .center-feedback h2 {
+        font-size: 1.3em;
+    }
+
+    .center-feedback p {
+        font-size: 0.85em;
+    }
+
     .btn-next {
         font-size: 1em;
         padding: 12px;
@@ -1280,6 +1319,14 @@ h1 {
 
     .vs-icons {
         font-size: 1em;
+    }
+
+    .center-feedback h2 {
+        font-size: 1.2em;
+    }
+
+    .center-feedback p {
+        font-size: 0.8em;
     }
 
     .btn-next {

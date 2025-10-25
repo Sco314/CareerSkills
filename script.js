@@ -25,7 +25,8 @@ const startBtn = document.getElementById('startBtn');
 const addCareerBtn = document.getElementById('addCareerBtn');
 const nextBtn = document.getElementById('nextBtn');
 const nextBtnContainer = document.getElementById('nextBtnContainer');
-const feedbackEl = document.getElementById('feedback');
+const questionTextEl = document.getElementById('questionText');
+const centerFeedbackEl = document.getElementById('centerFeedback');
 const playAgainBtn = document.getElementById('playAgainBtn');
 const viewStatsBtn = document.getElementById('viewStatsBtn');
 
@@ -215,11 +216,21 @@ function selectCareer(index) {
 
 // Reveal both salaries
 function revealSalaries() {
+    // Show salaries in the bottom reveal section (keep for now)
     document.getElementById('salary1-reveal').classList.remove('hidden');
     document.getElementById('salary2-reveal').classList.remove('hidden');
-
     document.getElementById('salary1').textContent = formatSalary(currentCareers[0].salary);
     document.getElementById('salary2').textContent = formatSalary(currentCareers[1].salary);
+
+    // Hide select buttons and show salary in header
+    document.getElementById('selectBtn1').classList.add('hidden');
+    document.getElementById('selectBtn2').classList.add('hidden');
+
+    // Show header salaries
+    document.getElementById('headerSalary1').classList.remove('hidden');
+    document.getElementById('headerSalary2').classList.remove('hidden');
+    document.getElementById('headerSalary1Value').textContent = formatSalary(currentCareers[0].salary);
+    document.getElementById('headerSalary2Value').textContent = formatSalary(currentCareers[1].salary);
 }
 
 // Format salary with commas and dollar sign
@@ -229,10 +240,12 @@ function formatSalary(salary) {
 
 // Show feedback message
 function showFeedback(isCorrect, selectedCareer, otherCareer) {
-    const feedbackTitle = document.getElementById('feedbackTitle');
-    const feedbackMessage = document.getElementById('feedbackMessage');
+    const feedbackTitle = document.getElementById('centerFeedbackTitle');
+    const feedbackMessage = document.getElementById('centerFeedbackMessage');
 
-    feedbackEl.classList.remove('hidden');
+    // Hide question text and show feedback
+    questionTextEl.classList.add('hidden');
+    centerFeedbackEl.classList.remove('hidden');
 
     if (isCorrect) {
         feedbackTitle.textContent = streak > 1 ? `Correct! Streak: ${streak}!` : 'Correct!';
@@ -579,7 +592,8 @@ function collapseAllOnMobile() {
 // Load a new round with two random careers
 function loadNewRound() {
     // Reset UI
-    feedbackEl.classList.add('hidden');
+    questionTextEl.classList.remove('hidden');
+    centerFeedbackEl.classList.add('hidden');
     nextBtnContainer.classList.add('hidden');
 
     // Get two random careers
@@ -596,6 +610,12 @@ function loadNewRound() {
 
     // Enable buttons
     enableButtons();
+
+    // Reset button and salary visibility
+    document.getElementById('selectBtn1').classList.remove('hidden');
+    document.getElementById('selectBtn2').classList.remove('hidden');
+    document.getElementById('headerSalary1').classList.add('hidden');
+    document.getElementById('headerSalary2').classList.add('hidden');
 
     // Reset card states
     document.getElementById('career1').classList.remove('correct', 'incorrect', 'disabled');
