@@ -387,16 +387,24 @@ async function handleAddCareer(event) {
     event.preventDefault();
 
     const urlInput = document.getElementById('careerUrl');
-    const url = urlInput.value.trim();
+    let url = urlInput.value.trim();
 
     if (!url) {
         showStatus('Please enter a valid URL', 'error');
         return;
     }
 
-    // Validate BLS URL
-    if (!url.includes('bls.gov/ooh/')) {
-        showStatus('Please enter a valid BLS.gov Occupational Outlook Handbook URL', 'error');
+    // Auto-prepend https:// if protocol is missing
+    if (!/^https?:\/\//i.test(url)) {
+        url = 'https://' + url;
+    }
+
+    // Validate BLS URL with comprehensive regex
+    // Allows any OOH occupation page: https://www.bls.gov/ooh/category/occupation-name.htm
+    const blsUrlPattern = /^https?:\/\/(www\.)?bls\.gov\/ooh\/[A-Za-z0-9\-\/]+\.htm\/?(\?.*|#.*)?$/i;
+
+    if (!blsUrlPattern.test(url)) {
+        showStatus('Please enter a valid BLS.gov Occupational Outlook Handbook URL ending in .htm', 'error');
         return;
     }
 

@@ -15,20 +15,73 @@ app.use(express.static(__dirname));
 
 // API endpoint to scrape BLS.gov career data
 app.post('/api/scrape-career', async (req, res) => {
-    try {
-        const { url } = req.body;
+    const startTime = Date.now();
 
-        if (!url || !url.includes('bls.gov/ooh/')) {
+    try {
+        const { url: rawUrl } = req.body;
+
+        if (!rawUrl) {
             return res.status(400).json({
-                error: 'Please provide a valid BLS.gov Occupational Outlook Handbook URL'
+                error: 'URL is required'
             });
         }
 
-        console.log(`Fetching career data from: ${url}`);
+        // Normalize and validate URL
+        let parsedUrl;
+        try {
+            parsedUrl = new URL(rawUrl);
+        } catch (e) {
+            return res.status(400).json({
+                error: 'Invalid URL format. Please provide a valid BLS.gov OOH URL.'
+            });
+        }
 
-        // Fetch the HTML content
-        const response = await fetch(url);
+        // Validate hostname
+        if (!/^(www\.)?bls\.gov$/i.test(parsedUrl.hostname)) {
+            return res.status(400).json({
+                error: 'URL must be from bls.gov domain'
+            });
+        }
+
+        // Validate path - must be under /ooh/
+        if (!/^\/ooh\//i.test(parsedUrl.pathname)) {
+            return res.status(400).json({
+                error: 'URL must be a BLS Occupational Outlook Handbook page (path should start with /ooh/)'
+            });
+        }
+
+        // Validate that it's an .htm page (allow optional trailing slash)
+        if (!/\.htm\/?$/i.test(parsedUrl.pathname)) {
+            return res.status(400).json({
+                error: 'URL must be a BLS OOH page ending in .htm'
+            });
+        }
+
+        // Normalize URL: force https, remove trailing slash after .htm
+        const normalizedPath = parsedUrl.pathname.replace(/\/$/, '');
+        const normalizedUrl = `https://${parsedUrl.hostname}${normalizedPath}`;
+
+        console.log(`Fetching career data from: ${normalizedUrl}`);
+
+        // Fetch the HTML content with User-Agent header and timeout
+        const response = await fetch(normalizedUrl, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            },
+            timeout: 15000 // 15 second timeout
+        });
+
         if (!response.ok) {
+            if (response.status === 404) {
+                return res.status(404).json({
+                    error: 'Career page not found. Please check the URL and try again.'
+                });
+            }
+            if (response.status === 403 || response.status === 429) {
+                return res.status(503).json({
+                    error: 'BLS.gov is temporarily unavailable. Please try again in a moment.'
+                });
+            }
             throw new Error(`Failed to fetch URL: ${response.status} ${response.statusText}`);
         }
 
@@ -44,19 +97,24 @@ app.post('/api/scrape-career', async (req, res) => {
             demand: '',
             workEnvironment: '',
             skills: [],
-            source: url
+            source: normalizedUrl
         };
+
+        const fieldsFound = [];
 
         // Extract title from h1 or page title
         careerData.title = $('h1').first().text().trim() ||
                           $('title').text().replace(' : Occupational Outlook Handbook', '').trim();
+        if (careerData.title) fieldsFound.push('title');
 
-        // Extract salary (median pay)
+        // Extract salary (median pay) with multiple fallback strategies
         const salaryText = $('p:contains("Median Pay")').parent().find('.ooh-highlight').text() ||
+                          $('p:contains("Median annual wage")').parent().find('.ooh-highlight').text() ||
                           $('.ooh-highlight:contains("$")').first().text();
         const salaryMatch = salaryText.match(/\$([0-9,]+)/);
         if (salaryMatch) {
             careerData.salary = parseInt(salaryMatch[1].replace(/,/g, ''));
+            fieldsFound.push('salary');
         }
 
         // Extract description from "What They Do" section
@@ -72,6 +130,7 @@ app.post('/api/scrape-career', async (req, res) => {
             careerData.description = $('meta[name="description"]').attr('content') ||
                                     $('meta[property="og:description"]').attr('content') || '';
         }
+        if (careerData.description) fieldsFound.push('description');
 
         // Extract education requirements
         const educationSection = $('h3:contains("Education"), h2:contains("How to Become")').first();
@@ -86,12 +145,14 @@ app.post('/api/scrape-career', async (req, res) => {
         if (entryLevelEd && !careerData.education) {
             careerData.education = entryLevelEd;
         }
+        if (careerData.education) fieldsFound.push('education');
 
         // Extract job outlook/demand
         const outlookText = $('p:contains("Job Outlook")').parent().find('.ooh-highlight').text().trim() ||
                            $('h2:contains("Job Outlook"), h3:contains("Job Outlook")').next('p').text().trim();
         if (outlookText) {
             careerData.demand = outlookText.substring(0, 150);
+            fieldsFound.push('demand');
         }
 
         // Extract work environment
@@ -99,6 +160,7 @@ app.post('/api/scrape-career', async (req, res) => {
         if (workEnvSection.length) {
             const workEnvText = workEnvSection.next('p').text().trim();
             careerData.workEnvironment = workEnvText.substring(0, 150);
+            fieldsFound.push('workEnvironment');
         }
 
         // Extract skills from "Important Qualities" section
@@ -117,22 +179,27 @@ app.post('/api/scrape-career', async (req, res) => {
         // If no skills found, add some generic ones
         if (careerData.skills.length === 0) {
             careerData.skills = ['Problem-solving', 'Communication', 'Technical skills'];
+        } else {
+            fieldsFound.push('skills');
         }
 
-        // Validation
+        // Validation - use 422 for scraping issues (valid URL but couldn't parse content)
         if (!careerData.title) {
-            return res.status(400).json({
-                error: 'Could not extract career title from the page. Please check the URL.'
+            console.warn(`Failed to extract title from: ${normalizedUrl}`);
+            return res.status(422).json({
+                error: 'Could not read the career title from this page. The page layout may have changed or this may not be a career page.'
             });
         }
 
         if (careerData.salary === 0) {
-            return res.status(400).json({
-                error: 'Could not extract salary information. Please ensure this is a valid BLS OOH career page.'
+            console.warn(`Failed to extract salary from: ${normalizedUrl}, fields found: ${fieldsFound.join(', ')}`);
+            return res.status(422).json({
+                error: 'Could not read salary information from this page. The page layout may have changed.'
             });
         }
 
-        console.log('Successfully scraped career data:', careerData.title);
+        const elapsed = Date.now() - startTime;
+        console.log(`Successfully scraped career data: "${careerData.title}" in ${elapsed}ms, fields found: ${fieldsFound.join(', ')}`);
         res.json(careerData);
 
     } catch (error) {
