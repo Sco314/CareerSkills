@@ -26,8 +26,8 @@ body {
 header {
     background: white;
     border-radius: 15px;
-    padding: 12px 20px;
-    margin-bottom: 20px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -326,16 +326,16 @@ h1 {
 .careers-container {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    gap: 20px;
+    gap: 12px;
     align-items: start;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 /* Career Cards */
 .career-card {
     background: white;
     border-radius: 15px;
-    padding: 25px;
+    padding: 12px 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -365,12 +365,12 @@ h1 {
 
 .career-header {
     border-bottom: 3px solid #667eea;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .career-title {
@@ -385,7 +385,7 @@ h1 {
 }
 
 .career-section {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .career-section h3 {
@@ -411,7 +411,7 @@ h1 {
 .vs-column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     align-items: center;
 }
 
@@ -423,8 +423,8 @@ h1 {
     color: white;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 15px;
-    padding: 15px;
-    min-height: 70px;
+    padding: 12px 16px;
+    min-height: 50px;
     width: 100%;
 }
 
@@ -538,13 +538,14 @@ h1 {
 
 .select-btn-compact {
     width: auto;
-    padding: 10px 18px;
-    font-size: 0.9em;
+    padding: 0 16px;
+    font-size: 16px;
     font-weight: 600;
+    height: 44px;
     border-radius: 25px;
     margin-top: 0;
     white-space: nowrap;
-    min-width: 120px;
+    min-width: 100px;
 }
 
 /* Feedback */
@@ -833,7 +834,13 @@ h1 {
         padding: 4px 0;
     }
 
-    /* Collapse all sections by default on mobile */
+    /* Hide last 2 sections (Work Environment, Key Skills) on mobile to save space */
+    .career-body .collapsible:nth-child(4),
+    .career-body .collapsible:nth-child(5) {
+        display: none;
+    }
+
+    /* Collapse remaining visible sections by default on mobile */
     .collapsible {
         margin-bottom: 5px;
     }
@@ -1091,6 +1098,12 @@ h1 {
         font-size: 0.85em;
         margin-bottom: 2px;
         padding: 3px 0;
+    }
+
+    /* Hide last 2 sections (Work Environment, Key Skills) on small mobile to save space */
+    .career-body .collapsible:nth-child(4),
+    .career-body .collapsible:nth-child(5) {
+        display: none;
     }
 
     .collapsible-header {

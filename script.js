@@ -15,31 +15,6 @@ let totalCorrect = 0;
 let totalRounds = 0;
 let gameStarted = false;
 
-// Predefined career matchups that students should see first
-const predefinedMatchups = [
-    ['Veterinarian', 'Dentist'],
-    ['Firefighter', 'Police Officer'],
-    ['Chef', 'Welder'],
-    ['Interior Designer', 'Fashion Designer'],
-    ['Air Traffic Controller', 'Aerospace Engineer'],
-    ['Electrician', 'Paramedic'],
-    ['Chemical Engineer', 'Chemist'],
-    ['Lawyer', 'Petroleum Engineer'],
-    ['Power Plant Operator', 'Electrician'],
-    ['Wildlife Biologist', 'High School Biology Teacher'],
-    ['Registered Nurse', 'Phlebotomist'],
-    ['Hair Stylist', 'Cashier'],
-    ['Computer Programmer', 'Professional Athlete'],
-    ['Accountant', 'Bank Teller'],
-    ['Automotive Mechanic', 'Photographer'],
-    ['Movie Director', 'Actor'],
-    ['Librarian', 'Writer'],
-    ['Mathematician', 'Zoologist'],
-    ['Financial Manager', 'Computer Programmer']
-];
-let usedPredefinedIndices = [];
-let useRandomThisRound = false; // Alternates between predefined and random
-
 // DOM Elements
 const instructionsEl = document.getElementById('instructions');
 const gameAreaEl = document.getElementById('gameArea');
@@ -146,8 +121,6 @@ function resetGame() {
     totalCorrect = 0;
     totalRounds = 0;
     usedCareerIds = [];
-    usedPredefinedIndices = [];
-    useRandomThisRound = false;
 
     updateScoreDisplay();
     resultsScreenEl.classList.add('hidden');
@@ -155,44 +128,8 @@ function resetGame() {
     loadNewRound();
 }
 
-// Helper function to find a career by title (case-insensitive)
-function findCareerByTitle(title) {
-    return careers.find(career =>
-        career.title.toLowerCase() === title.toLowerCase()
-    );
-}
-
-// Get two careers - either from predefined matchups or random
+// Get two random careers
 function getRandomCareers() {
-    // Check if we still have predefined matchups to show
-    const hasUnusedPredefined = usedPredefinedIndices.length < predefinedMatchups.length;
-
-    // Alternate between random and predefined, but prioritize predefined until all are used
-    if (hasUnusedPredefined && !useRandomThisRound) {
-        // Use a predefined matchup
-        let matchupIndex;
-        do {
-            matchupIndex = Math.floor(Math.random() * predefinedMatchups.length);
-        } while (usedPredefinedIndices.includes(matchupIndex));
-
-        usedPredefinedIndices.push(matchupIndex);
-        const matchup = predefinedMatchups[matchupIndex];
-
-        const career1 = findCareerByTitle(matchup[0]);
-        const career2 = findCareerByTitle(matchup[1]);
-
-        // If both careers are found, use them; otherwise fall back to random
-        if (career1 && career2) {
-            useRandomThisRound = true; // Next round will be random
-            return [career1, career2];
-        }
-        // If careers not found, fall through to random selection
-        console.warn(`Predefined matchup not found: ${matchup[0]} vs ${matchup[1]}`);
-    }
-
-    // Use random matchup
-    useRandomThisRound = false; // Next round will try predefined (if available)
-
     // If we've used all careers, reset the pool
     if (usedCareerIds.length >= careers.length - 1) {
         usedCareerIds = [];
@@ -617,22 +554,20 @@ function initCollapsibles() {
     });
 }
 
-// Collapse all sections on mobile devices (keep first 3 expanded)
+// Collapse all sections on mobile devices (first 3 visible sections start collapsed)
 function collapseAllOnMobile() {
     if (window.innerWidth <= 768) {
         // Get all collapsible sections for both career cards
         const career1Sections = document.querySelectorAll('#career1 .collapsible');
         const career2Sections = document.querySelectorAll('#career2 .collapsible');
 
-        // For each career card, collapse sections after the first 3 (Description, Education, Demand)
+        // Collapse the first 3 sections (Description, Education, Job Demand)
+        // Note: Sections 4 and 5 (Work Environment, Key Skills) are hidden via CSS on mobile
         [career1Sections, career2Sections].forEach(sections => {
             sections.forEach((section, index) => {
-                // Collapse sections 3 and 4 (Work Environment and Key Skills)
-                if (index >= 3) {
+                // Collapse first 3 sections (last 2 are hidden via CSS)
+                if (index < 3) {
                     section.classList.add('collapsed');
-                } else {
-                    // Ensure first 3 sections are expanded
-                    section.classList.remove('collapsed');
                 }
             });
         });
