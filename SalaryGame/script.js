@@ -443,20 +443,22 @@ function initCollapsibles() {
     });
 }
 
-// Collapse all sections on mobile devices
-function collapseAllOnMobile() {
-    if (window.innerWidth <= 768) {
-        const career1Sections = document.querySelectorAll('#career1 .collapsible');
-        const career2Sections = document.querySelectorAll('#career2 .collapsible');
+// Set default collapsed state: collapse first 4 sections, keep Key Skills (section 5) open
+function setDefaultCollapsedState() {
+    const career1Sections = document.querySelectorAll('#career1 .collapsible');
+    const career2Sections = document.querySelectorAll('#career2 .collapsible');
 
-        [career1Sections, career2Sections].forEach(sections => {
-            sections.forEach((section, index) => {
-                if (index < 3) {
-                    section.classList.add('collapsed');
-                }
-            });
+    [career1Sections, career2Sections].forEach(sections => {
+        sections.forEach((section, index) => {
+            // Collapse Description (0), Education (1), Job Demand (2), Work Environment (3)
+            // Keep Key Skills (4) open
+            if (index < 4) {
+                section.classList.add('collapsed');
+            } else {
+                section.classList.remove('collapsed');
+            }
         });
-    }
+    });
 }
 
 // Load a new round with two random careers
@@ -484,12 +486,12 @@ function loadNewRound() {
     document.getElementById('career2').classList.remove('correct', 'incorrect', 'disabled');
 
     updateScoreDisplay();
-    collapseAllOnMobile();
+    setDefaultCollapsedState();
 }
 
 // Initialize the game when page loads
 document.addEventListener('DOMContentLoaded', () => {
     init();
     initCollapsibles();
-    collapseAllOnMobile();
+    setDefaultCollapsedState();
 });
