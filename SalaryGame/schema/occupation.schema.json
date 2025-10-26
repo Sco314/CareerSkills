@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://salarygame.example.com/schemas/occupation.schema.json",
+  "title": "Occupation",
+  "description": "A career/occupation with complete data for the Salary Game",
+  "type": "object",
+  "required": ["soc", "title", "description", "education", "demand", "salary", "skills", "source"],
+  "properties": {
+    "soc": {
+      "type": "string",
+      "description": "Standard Occupational Classification code (e.g., '29-1141')",
+      "pattern": "^[0-9]{2}-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Official occupation title",
+      "minLength": 1
+    },
+    "altTitles": {
+      "type": "array",
+      "description": "Alternative job titles for search",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "description": {
+      "type": "string",
+      "description": "What the occupation does (from OOH)",
+      "minLength": 10
+    },
+    "education": {
+      "type": "string",
+      "description": "Typical entry-level education required",
+      "minLength": 1
+    },
+    "demand": {
+      "type": "string",
+      "description": "Job outlook/demand indicator (e.g., 'High – 7% (2024–34)')",
+      "minLength": 1
+    },
+    "salary": {
+      "type": "number",
+      "description": "Median annual wage in USD",
+      "minimum": 0
+    },
+    "salaryEstimated": {
+      "type": "boolean",
+      "description": "Flag indicating if salary was estimated from related SOC",
+      "default": false
+    },
+    "workEnvironment": {
+      "type": "string",
+      "description": "Typical work settings",
+      "minLength": 1
+    },
+    "skills": {
+      "type": "array",
+      "description": "Top 5 key skills required",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 5
+    },
+    "skillsSource": {
+      "type": "string",
+      "description": "Source of skills data: 'onet', 'ooh', or 'synthetic'",
+      "enum": ["onet", "ooh", "synthetic"],
+      "default": "onet"
+    },
+    "source": {
+      "type": "string",
+      "description": "Primary data source identifier (e.g., 'BLS OOH 29-1141')",
+      "minLength": 1
+    },
+    "oohUrl": {
+      "type": "string",
+      "description": "Canonical URL to BLS OOH page",
+      "format": "uri"
+    },
+    "growthRate": {
+      "type": "number",
+      "description": "Projected employment growth percentage (2024-2034)"
+    },
+    "openingsPerYear": {
+      "type": "number",
+      "description": "Average annual job openings",
+      "minimum": 0
+    },
+    "lastUpdated": {
+      "type": "string",
+      "description": "ISO date when this record was last updated",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

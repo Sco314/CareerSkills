@@ -1,0 +1,932 @@
+[
+  {
+    "soc": "29-1141",
+    "title": "Registered Nurses",
+    "altTitles": [
+      "RN",
+      "Staff Nurse",
+      "Clinical Nurse"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+    "source": "BLS OOH 29-1141"
+  },
+  {
+    "soc": "15-1252",
+    "title": "Software Developers",
+    "altTitles": [
+      "Software Engineer",
+      "Developer",
+      "Programmer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+    "source": "BLS OOH 15-1252"
+  },
+  {
+    "soc": "25-2021",
+    "title": "Elementary School Teachers",
+    "altTitles": [
+      "Teacher",
+      "Elementary Teacher"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/kindergarten-and-elementary-school-teachers.htm",
+    "source": "BLS OOH 25-2021"
+  },
+  {
+    "soc": "47-2111",
+    "title": "Electricians",
+    "altTitles": [
+      "Electrician",
+      "Electrical Technician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
+    "source": "BLS OOH 47-2111"
+  },
+  {
+    "soc": "17-2141",
+    "title": "Mechanical Engineers",
+    "altTitles": [
+      "Engineer",
+      "Mechanical Designer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm",
+    "source": "BLS OOH 17-2141"
+  },
+  {
+    "soc": "29-1292",
+    "title": "Dental Hygienists",
+    "altTitles": [
+      "Hygienist",
+      "Dental Assistant"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/dental-hygienists.htm",
+    "source": "BLS OOH 29-1292"
+  },
+  {
+    "soc": "11-2021",
+    "title": "Marketing Managers",
+    "altTitles": [
+      "Marketing Director",
+      "Brand Manager"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm",
+    "source": "BLS OOH 11-2021"
+  },
+  {
+    "soc": "47-2152",
+    "title": "Plumbers",
+    "altTitles": [
+      "Plumber",
+      "Pipefitter"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+    "source": "BLS OOH 47-2152"
+  },
+  {
+    "soc": "29-1123",
+    "title": "Physical Therapists",
+    "altTitles": [
+      "PT",
+      "Physiotherapist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/physical-therapists.htm",
+    "source": "BLS OOH 29-1123"
+  },
+  {
+    "soc": "27-1024",
+    "title": "Graphic Designers",
+    "altTitles": [
+      "Designer",
+      "Visual Designer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm",
+    "source": "BLS OOH 27-1024"
+  },
+  {
+    "soc": "15-2051",
+    "title": "Data Scientists",
+    "altTitles": [
+      "Data Analyst",
+      "ML Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/math/data-scientists.htm",
+    "source": "BLS OOH 15-2051"
+  },
+  {
+    "soc": "23-2011",
+    "title": "Paralegals",
+    "altTitles": [
+      "Legal Assistant",
+      "Paralegal Specialist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+    "source": "BLS OOH 23-2011"
+  },
+  {
+    "soc": "29-1131",
+    "title": "Veterinarians",
+    "altTitles": [
+      "Vet",
+      "Animal Doctor"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
+    "source": "BLS OOH 29-1131"
+  },
+  {
+    "soc": "15-1254",
+    "title": "Web Developers",
+    "altTitles": [
+      "Web Designer",
+      "Frontend Developer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm",
+    "source": "BLS OOH 15-1254"
+  },
+  {
+    "soc": "33-3051",
+    "title": "Police Officers",
+    "altTitles": [
+      "Cop",
+      "Law Enforcement Officer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/protective-service/police-and-detectives.htm",
+    "source": "BLS OOH 33-3051"
+  },
+  {
+    "soc": "13-2011",
+    "title": "Accountants",
+    "altTitles": [
+      "CPA",
+      "Tax Accountant"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
+    "source": "BLS OOH 13-2011"
+  },
+  {
+    "soc": "49-9021",
+    "title": "HVAC Technicians",
+    "altTitles": [
+      "HVAC Tech",
+      "Climate Control Technician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
+    "source": "BLS OOH 49-9021"
+  },
+  {
+    "soc": "29-1122",
+    "title": "Occupational Therapists",
+    "altTitles": [
+      "OT",
+      "Rehab Therapist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/occupational-therapists.htm",
+    "source": "BLS OOH 29-1122"
+  },
+  {
+    "soc": "17-2051",
+    "title": "Civil Engineers",
+    "altTitles": [
+      "Structural Engineer",
+      "Construction Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/civil-engineers.htm",
+    "source": "BLS OOH 17-2051"
+  },
+  {
+    "soc": "35-1011",
+    "title": "Chefs and Head Cooks",
+    "altTitles": [
+      "Chef",
+      "Executive Chef",
+      "Head Cook"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm",
+    "source": "BLS OOH 35-1011"
+  },
+  {
+    "soc": "29-1071",
+    "title": "Physician Assistants",
+    "altTitles": [
+      "PA",
+      "Physician Associate"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/physician-assistants.htm",
+    "source": "BLS OOH 29-1071"
+  },
+  {
+    "soc": "41-9021",
+    "title": "Real Estate Brokers and Sales Agents",
+    "altTitles": [
+      "Real Estate Agent",
+      "Realtor"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm",
+    "source": "BLS OOH 41-9021"
+  },
+  {
+    "soc": "29-1051",
+    "title": "Pharmacists",
+    "altTitles": [
+      "Pharmacist",
+      "Clinical Pharmacist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
+    "source": "BLS OOH 29-1051"
+  },
+  {
+    "soc": "15-1212",
+    "title": "Information Security Analysts",
+    "altTitles": [
+      "Cybersecurity Analyst",
+      "Security Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
+    "source": "BLS OOH 15-1212"
+  },
+  {
+    "soc": "21-1029",
+    "title": "Social Workers",
+    "altTitles": [
+      "Clinical Social Worker",
+      "Case Manager"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
+    "source": "BLS OOH 21-1029"
+  },
+  {
+    "soc": "17-2011",
+    "title": "Aerospace Engineers",
+    "altTitles": [
+      "Aeronautical Engineer",
+      "Flight Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm",
+    "source": "BLS OOH 17-2011"
+  },
+  {
+    "soc": "31-9091",
+    "title": "Dental Assistants",
+    "altTitles": [
+      "Dental Aid",
+      "Chairside Assistant"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
+    "source": "BLS OOH 31-9091"
+  },
+  {
+    "soc": "13-2051",
+    "title": "Financial Analysts",
+    "altTitles": [
+      "Investment Analyst",
+      "Budget Analyst"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+    "source": "BLS OOH 13-2051"
+  },
+  {
+    "soc": "11-9021",
+    "title": "Construction Managers",
+    "altTitles": [
+      "Project Manager",
+      "Site Manager"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/management/construction-managers.htm",
+    "source": "BLS OOH 11-9021"
+  },
+  {
+    "soc": "31-9092",
+    "title": "Medical Assistants",
+    "altTitles": [
+      "Clinical Assistant",
+      "Healthcare Assistant"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
+    "source": "BLS OOH 31-9092"
+  },
+  {
+    "soc": "17-1011",
+    "title": "Architects",
+    "altTitles": [
+      "Architect",
+      "Building Designer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
+    "source": "BLS OOH 17-1011"
+  },
+  {
+    "soc": "33-2011",
+    "title": "Firefighters",
+    "altTitles": [
+      "Fireman",
+      "Fire Protection Specialist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/protective-service/firefighters.htm",
+    "source": "BLS OOH 33-2011"
+  },
+  {
+    "soc": "11-3121",
+    "title": "Human Resources Managers",
+    "altTitles": [
+      "HR Manager",
+      "People Manager"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/management/human-resources-managers.htm",
+    "source": "BLS OOH 11-3121"
+  },
+  {
+    "soc": "29-1124",
+    "title": "Radiation Therapists",
+    "altTitles": [
+      "Radiation Tech",
+      "Oncology Therapist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/radiation-therapists.htm",
+    "source": "BLS OOH 29-1124"
+  },
+  {
+    "soc": "13-2072",
+    "title": "Loan Officers",
+    "altTitles": [
+      "Mortgage Broker",
+      "Loan Specialist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/business-and-financial/loan-officers.htm",
+    "source": "BLS OOH 13-2072"
+  },
+  {
+    "soc": "17-2199",
+    "title": "Engineers, All Other",
+    "altTitles": [
+      "Robotics Engineer",
+      "Systems Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/engineers.htm",
+    "source": "BLS OOH 17-2199"
+  },
+  {
+    "soc": "29-2032",
+    "title": "Diagnostic Medical Sonographers",
+    "altTitles": [
+      "Ultrasound Technician",
+      "Sonographer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm",
+    "source": "BLS OOH 29-2032"
+  },
+  {
+    "soc": "13-1121",
+    "title": "Meeting, Convention, and Event Planners",
+    "altTitles": [
+      "Event Planner",
+      "Event Coordinator"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm",
+    "source": "BLS OOH 13-1121"
+  },
+  {
+    "soc": "29-1211",
+    "title": "Anesthesiologists",
+    "altTitles": [
+      "Anesthesiologist",
+      "Anesthesia Doctor"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+    "source": "BLS OOH 29-1211"
+  },
+  {
+    "soc": "29-1021",
+    "title": "Dentists",
+    "altTitles": [
+      "Dentist",
+      "Dental Surgeon"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/dentists.htm",
+    "source": "BLS OOH 29-1021"
+  },
+  {
+    "soc": "51-4121",
+    "title": "Welders",
+    "altTitles": [
+      "Welder",
+      "Metal Fabricator"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
+    "source": "BLS OOH 51-4121"
+  },
+  {
+    "soc": "27-1025",
+    "title": "Interior Designers",
+    "altTitles": [
+      "Interior Decorator",
+      "Space Planner"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm",
+    "source": "BLS OOH 27-1025"
+  },
+  {
+    "soc": "27-1022",
+    "title": "Fashion Designers",
+    "altTitles": [
+      "Fashion Designer",
+      "Apparel Designer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm",
+    "source": "BLS OOH 27-1022"
+  },
+  {
+    "soc": "53-2021",
+    "title": "Air Traffic Controllers",
+    "altTitles": [
+      "ATC",
+      "Flight Controller"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
+    "source": "BLS OOH 53-2021"
+  },
+  {
+    "soc": "29-2042",
+    "title": "Emergency Medical Technicians",
+    "altTitles": [
+      "EMT",
+      "Paramedic"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
+    "source": "BLS OOH 29-2042"
+  },
+  {
+    "soc": "17-2041",
+    "title": "Chemical Engineers",
+    "altTitles": [
+      "Process Engineer",
+      "Chemical Designer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm",
+    "source": "BLS OOH 17-2041"
+  },
+  {
+    "soc": "19-2031",
+    "title": "Chemists",
+    "altTitles": [
+      "Lab Chemist",
+      "Research Chemist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/chemists-and-materials-scientists.htm",
+    "source": "BLS OOH 19-2031"
+  },
+  {
+    "soc": "23-1011",
+    "title": "Lawyers",
+    "altTitles": [
+      "Attorney",
+      "Counsel"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/legal/lawyers.htm",
+    "source": "BLS OOH 23-1011"
+  },
+  {
+    "soc": "17-2171",
+    "title": "Petroleum Engineers",
+    "altTitles": [
+      "Oil Engineer",
+      "Drilling Engineer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/petroleum-engineers.htm",
+    "source": "BLS OOH 17-2171"
+  },
+  {
+    "soc": "51-8013",
+    "title": "Power Plant Operators",
+    "altTitles": [
+      "Plant Operator",
+      "Energy Technician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/production/power-plant-operators-distributors-and-dispatchers.htm",
+    "source": "BLS OOH 51-8013"
+  },
+  {
+    "soc": "19-1023",
+    "title": "Zoologists and Wildlife Biologists",
+    "altTitles": [
+      "Wildlife Biologist",
+      "Zoologist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
+    "source": "BLS OOH 19-1023"
+  },
+  {
+    "soc": "25-2031",
+    "title": "Secondary School Teachers",
+    "altTitles": [
+      "High School Teacher",
+      "Biology Teacher"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm",
+    "source": "BLS OOH 25-2031"
+  },
+  {
+    "soc": "31-9097",
+    "title": "Phlebotomists",
+    "altTitles": [
+      "Blood Draw Technician",
+      "Phlebotomy Tech"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
+    "source": "BLS OOH 31-9097"
+  },
+  {
+    "soc": "39-5012",
+    "title": "Hairdressers, Hairstylists, and Cosmetologists",
+    "altTitles": [
+      "Hair Stylist",
+      "Beautician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
+    "source": "BLS OOH 39-5012"
+  },
+  {
+    "soc": "41-2011",
+    "title": "Cashiers",
+    "altTitles": [
+      "Cashier",
+      "Checkout Clerk"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/sales/retail-sales-workers.htm",
+    "source": "BLS OOH 41-2011"
+  },
+  {
+    "soc": "15-1251",
+    "title": "Computer Programmers",
+    "altTitles": [
+      "Programmer",
+      "Coder"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm",
+    "source": "BLS OOH 15-1251"
+  },
+  {
+    "soc": "27-2021",
+    "title": "Athletes and Sports Competitors",
+    "altTitles": [
+      "Professional Athlete",
+      "Sports Player"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/athletes-and-sports-competitors.htm",
+    "source": "BLS OOH 27-2021"
+  },
+  {
+    "soc": "43-3071",
+    "title": "Tellers",
+    "altTitles": [
+      "Bank Teller",
+      "Customer Service Rep"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/office-and-administrative-support/tellers.htm",
+    "source": "BLS OOH 43-3071"
+  },
+  {
+    "soc": "49-3023",
+    "title": "Automotive Service Technicians and Mechanics",
+    "altTitles": [
+      "Auto Mechanic",
+      "Car Technician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/automotive-service-technicians-and-mechanics.htm",
+    "source": "BLS OOH 49-3023"
+  },
+  {
+    "soc": "27-4021",
+    "title": "Photographers",
+    "altTitles": [
+      "Photographer",
+      "Photo Specialist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/media-and-communication/photographers.htm",
+    "source": "BLS OOH 27-4021"
+  },
+  {
+    "soc": "27-2012",
+    "title": "Producers and Directors",
+    "altTitles": [
+      "Film Director",
+      "Movie Director"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/producers-and-directors.htm",
+    "source": "BLS OOH 27-2012"
+  },
+  {
+    "soc": "27-2011",
+    "title": "Actors",
+    "altTitles": [
+      "Actor",
+      "Actress",
+      "Performer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/actors.htm",
+    "source": "BLS OOH 27-2011"
+  },
+  {
+    "soc": "25-4021",
+    "title": "Librarians and Media Collections Specialists",
+    "altTitles": [
+      "Librarian",
+      "Media Specialist"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
+    "source": "BLS OOH 25-4021"
+  },
+  {
+    "soc": "27-3043",
+    "title": "Writers and Authors",
+    "altTitles": [
+      "Writer",
+      "Author",
+      "Content Writer"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm",
+    "source": "BLS OOH 27-3043"
+  },
+  {
+    "soc": "15-2021",
+    "title": "Mathematicians",
+    "altTitles": [
+      "Mathematician",
+      "Applied Mathematician"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
+    "source": "BLS OOH 15-2021"
+  },
+  {
+    "soc": "11-3031",
+    "title": "Financial Managers",
+    "altTitles": [
+      "Finance Director",
+      "CFO",
+      "Controller"
+    ],
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
+    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "education": "Bachelor's degree",
+    "jobOutlookText": "Much faster than average",
+    "oohUrl": "https://www.bls.gov/ooh/management/financial-managers.htm",
+    "source": "BLS OOH 11-3031"
+  }
+]

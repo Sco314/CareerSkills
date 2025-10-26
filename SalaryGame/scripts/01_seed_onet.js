@@ -1,0 +1,137 @@
+#!/usr/bin/env node
+/**
+ * Script 01: Seed O*NET Occupation Data
+ *
+ * Purpose: Create the master occupations list from O*NET data
+ * Input: data/raw/onet/occupations.csv (or alternative O*NET source)
+ * Output: build/01_onet_seed.json
+ *
+ * O*NET Data Source: https://www.onetcenter.org/database.html
+ * Download: "Occupation Data" file from O*NET Database
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const INPUT_FILE = path.join(__dirname, '../data/raw/onet/occupations.csv');
+const OUTPUT_FILE = path.join(__dirname, '../build/01_onet_seed.json');
+
+// Sample O*NET data structure (you'll need to download actual data)
+// This is a starter set based on common SOC codes
+const SEED_DATA = [
+  { soc: '29-1141', title: 'Registered Nurses', altTitles: ['RN', 'Staff Nurse', 'Clinical Nurse'] },
+  { soc: '15-1252', title: 'Software Developers', altTitles: ['Software Engineer', 'Developer', 'Programmer'] },
+  { soc: '25-2021', title: 'Elementary School Teachers', altTitles: ['Teacher', 'Elementary Teacher'] },
+  { soc: '47-2111', title: 'Electricians', altTitles: ['Electrician', 'Electrical Technician'] },
+  { soc: '17-2141', title: 'Mechanical Engineers', altTitles: ['Engineer', 'Mechanical Designer'] },
+  { soc: '29-1292', title: 'Dental Hygienists', altTitles: ['Hygienist', 'Dental Assistant'] },
+  { soc: '11-2021', title: 'Marketing Managers', altTitles: ['Marketing Director', 'Brand Manager'] },
+  { soc: '47-2152', title: 'Plumbers', altTitles: ['Plumber', 'Pipefitter'] },
+  { soc: '29-1123', title: 'Physical Therapists', altTitles: ['PT', 'Physiotherapist'] },
+  { soc: '27-1024', title: 'Graphic Designers', altTitles: ['Designer', 'Visual Designer'] },
+  { soc: '15-2051', title: 'Data Scientists', altTitles: ['Data Analyst', 'ML Engineer'] },
+  { soc: '23-2011', title: 'Paralegals', altTitles: ['Legal Assistant', 'Paralegal Specialist'] },
+  { soc: '29-1131', title: 'Veterinarians', altTitles: ['Vet', 'Animal Doctor'] },
+  { soc: '15-1254', title: 'Web Developers', altTitles: ['Web Designer', 'Frontend Developer'] },
+  { soc: '33-3051', title: 'Police Officers', altTitles: ['Cop', 'Law Enforcement Officer'] },
+  { soc: '13-2011', title: 'Accountants', altTitles: ['CPA', 'Tax Accountant'] },
+  { soc: '49-9021', title: 'HVAC Technicians', altTitles: ['HVAC Tech', 'Climate Control Technician'] },
+  { soc: '29-1122', title: 'Occupational Therapists', altTitles: ['OT', 'Rehab Therapist'] },
+  { soc: '17-2051', title: 'Civil Engineers', altTitles: ['Structural Engineer', 'Construction Engineer'] },
+  { soc: '35-1011', title: 'Chefs and Head Cooks', altTitles: ['Chef', 'Executive Chef', 'Head Cook'] },
+  { soc: '29-1071', title: 'Physician Assistants', altTitles: ['PA', 'Physician Associate'] },
+  { soc: '41-9021', title: 'Real Estate Brokers and Sales Agents', altTitles: ['Real Estate Agent', 'Realtor'] },
+  { soc: '29-1051', title: 'Pharmacists', altTitles: ['Pharmacist', 'Clinical Pharmacist'] },
+  { soc: '15-1212', title: 'Information Security Analysts', altTitles: ['Cybersecurity Analyst', 'Security Engineer'] },
+  { soc: '21-1029', title: 'Social Workers', altTitles: ['Clinical Social Worker', 'Case Manager'] },
+  { soc: '17-2011', title: 'Aerospace Engineers', altTitles: ['Aeronautical Engineer', 'Flight Engineer'] },
+  { soc: '31-9091', title: 'Dental Assistants', altTitles: ['Dental Aid', 'Chairside Assistant'] },
+  { soc: '13-2051', title: 'Financial Analysts', altTitles: ['Investment Analyst', 'Budget Analyst'] },
+  { soc: '11-9021', title: 'Construction Managers', altTitles: ['Project Manager', 'Site Manager'] },
+  { soc: '31-9092', title: 'Medical Assistants', altTitles: ['Clinical Assistant', 'Healthcare Assistant'] },
+  { soc: '17-1011', title: 'Architects', altTitles: ['Architect', 'Building Designer'] },
+  { soc: '33-2011', title: 'Firefighters', altTitles: ['Fireman', 'Fire Protection Specialist'] },
+  { soc: '11-3121', title: 'Human Resources Managers', altTitles: ['HR Manager', 'People Manager'] },
+  { soc: '29-1124', title: 'Radiation Therapists', altTitles: ['Radiation Tech', 'Oncology Therapist'] },
+  { soc: '13-2072', title: 'Loan Officers', altTitles: ['Mortgage Broker', 'Loan Specialist'] },
+  { soc: '17-2199', title: 'Engineers, All Other', altTitles: ['Robotics Engineer', 'Systems Engineer'] },
+  { soc: '29-2032', title: 'Diagnostic Medical Sonographers', altTitles: ['Ultrasound Technician', 'Sonographer'] },
+  { soc: '13-1121', title: 'Meeting, Convention, and Event Planners', altTitles: ['Event Planner', 'Event Coordinator'] },
+  { soc: '29-1211', title: 'Anesthesiologists', altTitles: ['Anesthesiologist', 'Anesthesia Doctor'] },
+  { soc: '29-1021', title: 'Dentists', altTitles: ['Dentist', 'Dental Surgeon'] },
+  { soc: '51-4121', title: 'Welders', altTitles: ['Welder', 'Metal Fabricator'] },
+  { soc: '27-1025', title: 'Interior Designers', altTitles: ['Interior Decorator', 'Space Planner'] },
+  { soc: '27-1022', title: 'Fashion Designers', altTitles: ['Fashion Designer', 'Apparel Designer'] },
+  { soc: '53-2021', title: 'Air Traffic Controllers', altTitles: ['ATC', 'Flight Controller'] },
+  { soc: '29-2042', title: 'Emergency Medical Technicians', altTitles: ['EMT', 'Paramedic'] },
+  { soc: '17-2041', title: 'Chemical Engineers', altTitles: ['Process Engineer', 'Chemical Designer'] },
+  { soc: '19-2031', title: 'Chemists', altTitles: ['Lab Chemist', 'Research Chemist'] },
+  { soc: '23-1011', title: 'Lawyers', altTitles: ['Attorney', 'Counsel'] },
+  { soc: '17-2171', title: 'Petroleum Engineers', altTitles: ['Oil Engineer', 'Drilling Engineer'] },
+  { soc: '51-8013', title: 'Power Plant Operators', altTitles: ['Plant Operator', 'Energy Technician'] },
+  { soc: '19-1023', title: 'Zoologists and Wildlife Biologists', altTitles: ['Wildlife Biologist', 'Zoologist'] },
+  { soc: '25-2031', title: 'Secondary School Teachers', altTitles: ['High School Teacher', 'Biology Teacher'] },
+  { soc: '31-9097', title: 'Phlebotomists', altTitles: ['Blood Draw Technician', 'Phlebotomy Tech'] },
+  { soc: '39-5012', title: 'Hairdressers, Hairstylists, and Cosmetologists', altTitles: ['Hair Stylist', 'Beautician'] },
+  { soc: '41-2011', title: 'Cashiers', altTitles: ['Cashier', 'Checkout Clerk'] },
+  { soc: '15-1251', title: 'Computer Programmers', altTitles: ['Programmer', 'Coder'] },
+  { soc: '27-2021', title: 'Athletes and Sports Competitors', altTitles: ['Professional Athlete', 'Sports Player'] },
+  { soc: '43-3071', title: 'Tellers', altTitles: ['Bank Teller', 'Customer Service Rep'] },
+  { soc: '49-3023', title: 'Automotive Service Technicians and Mechanics', altTitles: ['Auto Mechanic', 'Car Technician'] },
+  { soc: '27-4021', title: 'Photographers', altTitles: ['Photographer', 'Photo Specialist'] },
+  { soc: '27-2012', title: 'Producers and Directors', altTitles: ['Film Director', 'Movie Director'] },
+  { soc: '27-2011', title: 'Actors', altTitles: ['Actor', 'Actress', 'Performer'] },
+  { soc: '25-4021', title: 'Librarians and Media Collections Specialists', altTitles: ['Librarian', 'Media Specialist'] },
+  { soc: '27-3043', title: 'Writers and Authors', altTitles: ['Writer', 'Author', 'Content Writer'] },
+  { soc: '15-2021', title: 'Mathematicians', altTitles: ['Mathematician', 'Applied Mathematician'] },
+  { soc: '11-3031', title: 'Financial Managers', altTitles: ['Finance Director', 'CFO', 'Controller'] }
+];
+
+function seedOnetData() {
+  console.log('🌱 Seeding O*NET occupation data...');
+
+  // Check if CSV file exists (for real implementation)
+  if (fs.existsSync(INPUT_FILE)) {
+    console.log(`📂 Found O*NET CSV file: ${INPUT_FILE}`);
+    // TODO: Parse CSV file
+    // For now, we'll use the seed data
+  } else {
+    console.log(`⚠️  O*NET CSV not found at ${INPUT_FILE}`);
+    console.log('📋 Using built-in seed data instead');
+    console.log(`💡 To use real O*NET data, download from: https://www.onetcenter.org/database.html`);
+  }
+
+  // Create build directory if it doesn't exist
+  const buildDir = path.dirname(OUTPUT_FILE);
+  if (!fs.existsSync(buildDir)) {
+    fs.mkdirSync(buildDir, { recursive: true });
+  }
+
+  // Transform and write seed data
+  const occupations = SEED_DATA.map(occ => ({
+    soc: occ.soc,
+    title: occ.title,
+    altTitles: occ.altTitles || []
+  }));
+
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(occupations, null, 2));
+
+  console.log(`✅ Seeded ${occupations.length} occupations`);
+  console.log(`📄 Output: ${OUTPUT_FILE}`);
+  console.log('');
+
+  return occupations;
+}
+
+// Run if called directly
+if (require.main === module) {
+  try {
+    seedOnetData();
+    process.exit(0);
+  } catch (error) {
+    console.error('❌ Error seeding O*NET data:', error);
+    process.exit(1);
+  }
+}
+
+module.exports = { seedOnetData };

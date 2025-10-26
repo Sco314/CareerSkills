@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Salary Game - SalaryGame Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Career Salary Game</h1>
+            <div class="score-container">
+                <div class="score-item">
+                    <span class="score-label">Correct <span id="correct" class="score-value">0</span></span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Round <span id="round" class="score-value">1</span></span>
+                </div>
+                <div class="score-item">
+                    <span class="score-label">Streak <span id="streak" class="score-value">0</span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Career Section (replaces URL input) -->
+        <div id="searchCareerSection" class="add-career-section hidden">
+            <div class="add-career-content">
+                <h2>Add Career to Game</h2>
+                <p class="section-description">Search our library of 60+ careers and add them to your game.</p>
+
+                <div class="form-group">
+                    <label for="careerSearch">Search Careers</label>
+                    <input
+                        type="text"
+                        id="careerSearch"
+                        placeholder="Type to search (e.g., 'nurse', 'engineer', 'teacher')..."
+                        autocomplete="off"
+                    >
+                    <small class="form-help">Search by job title or alternative names</small>
+                </div>
+
+                <div id="searchResults" class="search-results hidden">
+                    <!-- Search results will be populated here -->
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" class="btn btn-secondary" id="cancelSearchBtn">
+                        Back to Game
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="viewAddedCareersBtn">
+                        View Added Careers
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Added Careers List Section -->
+        <div id="addedCareersSection" class="custom-careers-section hidden">
+            <div class="custom-careers-content">
+                <h2>My Added Careers</h2>
+                <p class="section-description">Manage the careers you've added to the game.</p>
+
+                <div id="addedCareersList" class="custom-careers-list">
+                    <!-- Added careers will be populated here -->
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" class="btn btn-secondary" id="backFromAddedCareersBtn">
+                        Back
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructions -->
+        <div id="instructions" class="instructions">
+            <div class="instructions-content">
+                <h2>How to Play</h2>
+                <p>1. Compare two careers side by side</p>
+                <p>2. Read about their education, job demand, and responsibilities</p>
+                <p>3. Click on the career you think has the HIGHER salary</p>
+                <p>4. See the actual salaries and learn something new!</p>
+                <div class="instructions-buttons">
+                    <button id="startBtn" class="btn btn-primary">Start Game</button>
+                    <button id="addCareerBtn" class="btn btn-secondary">Add More Careers</button>
+                </div>
+                <div class="data-source" style="margin-top: 20px;">
+                    <small>📚 Pre-loaded with 60+ careers from BLS & O*NET data</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Area (same as original CareerSkills) -->
+        <div id="gameArea" class="game-area hidden">
+            <div class="careers-container">
+                <!-- Career cards unchanged from original -->
+                <div class="career-card" id="career1" data-index="0">
+                    <div class="career-header">
+                        <h2 id="title1" class="career-title"><span class="career-title-text"></span></h2>
+                        <button class="select-btn select-btn-compact" id="selectBtn1">← Select</button>
+                        <button class="select-btn select-btn-compact salary-display hidden" id="headerSalary1" disabled>
+                            <span id="headerSalary1Value" class="salary-value-compact"></span>
+                        </button>
+                    </div>
+                    <div class="career-body">
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Description <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="description1" class="career-description"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Education Required <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="education1" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Job Demand <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="demand1" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Work Environment <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="environment1" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Key Skills <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="skills1" class="career-info"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vs-column">
+                    <div class="vs-divider">
+                        <div class="vs-content">
+                            <span id="questionText" class="vs-text">⬆️ Which career has the higher salary?⬇️</span>
+                            <div id="centerFeedback" class="center-feedback hidden">
+                                <div class="feedback-header">
+                                    <h2 id="centerFeedbackTitle"></h2>
+                                    <button id="nextBtn" class="btn btn-primary btn-next">NEXT ROUND →</button>
+                                </div>
+                                <p id="centerFeedbackMessage"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="career-card" id="career2" data-index="1">
+                    <div class="career-header">
+                        <h2 id="title2" class="career-title"><span class="career-title-text"></span></h2>
+                        <button class="select-btn select-btn-compact" id="selectBtn2">← Select</button>
+                        <button class="select-btn select-btn-compact salary-display hidden" id="headerSalary2" disabled>
+                            <span id="headerSalary2Value" class="salary-value-compact"></span>
+                        </button>
+                    </div>
+                    <div class="career-body">
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Description <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="description2" class="career-description"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Education Required <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="education2" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Job Demand <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="demand2" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Work Environment <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="environment2" class="career-info"></p>
+                            </div>
+                        </div>
+                        <div class="career-section collapsible">
+                            <h3 class="collapsible-header">Key Skills <span class="collapse-icon">▼</span></h3>
+                            <div class="collapsible-content">
+                                <p id="skills2" class="career-info"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-source">
+                <small>Data sources: U.S. Bureau of Labor Statistics (BLS), O*NET Online | Salaries are median annual wages</small>
+            </div>
+        </div>
+
+        <!-- Results Screen (unchanged) -->
+        <div id="resultsScreen" class="results-screen hidden">
+            <div class="results-content">
+                <h2>Game Complete!</h2>
+                <div class="final-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalScore">0</div>
+                        <div class="stat-label">Final Score</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalRounds">0</div>
+                        <div class="stat-label">Rounds Played</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalAccuracy">0%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="finalStreak">0</div>
+                        <div class="stat-label">Best Streak</div>
+                    </div>
+                </div>
+                <div class="results-message" id="resultsMessage"></div>
+                <div class="results-buttons">
+                    <button id="playAgainBtn" class="btn btn-primary btn-large">Play Again</button>
+                    <button id="viewStatsBtn" class="btn btn-secondary">Continue Playing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
