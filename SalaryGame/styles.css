@@ -885,12 +885,6 @@ h1 {
         padding: 4px 0;
     }
 
-    /* Hide last 2 sections (Work Environment, Key Skills) on mobile to save space */
-    .career-body .collapsible:nth-child(4),
-    .career-body .collapsible:nth-child(5) {
-        display: none;
-    }
-
     /* Collapse remaining visible sections by default on mobile */
     .collapsible {
         margin-bottom: 5px;
@@ -1168,12 +1162,6 @@ h1 {
         font-size: 0.85em;
         margin-bottom: 2px;
         padding: 3px 0;
-    }
-
-    /* Hide last 2 sections (Work Environment, Key Skills) on small mobile to save space */
-    .career-body .collapsible:nth-child(4),
-    .career-body .collapsible:nth-child(5) {
-        display: none;
     }
 
     .collapsible-header {
