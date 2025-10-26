@@ -7,10 +7,10 @@
       "Staff Nurse",
       "Clinical Nurse"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions, and provide advice and emotional support to patients and their families.",
+    "workEnvironment": "Hospitals, clinics, nursing homes",
+    "education": "Bachelor's degree (BSN) or Associate's degree (ADN)",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
     "source": "BLS OOH 29-1141",
     "salary": 81220,
@@ -26,7 +26,7 @@
       "Time management"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.521Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "15-1252",
@@ -36,9 +36,9 @@
       "Developer",
       "Programmer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Design, develop, and test computer applications and systems. Create programs that allow users to perform specific tasks on computers and other devices.",
+    "workEnvironment": "Tech companies, remote work, offices",
+    "education": "Bachelor's degree in Computer Science or related field",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
     "source": "BLS OOH 15-1252",
@@ -55,7 +55,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "25-2021",
@@ -64,10 +64,10 @@
       "Teacher",
       "Elementary Teacher"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Teach students basic subjects such as math, reading, science, and social studies. Create lesson plans and assess student progress.",
+    "workEnvironment": "Public and private schools",
+    "education": "Bachelor's degree and state teaching license",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/kindergarten-and-elementary-school-teachers.htm",
     "source": "BLS OOH 25-2021",
     "salary": 61690,
@@ -83,7 +83,7 @@
       "Active listening"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "47-2111",
@@ -92,10 +92,10 @@
       "Electrician",
       "Electrical Technician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Install, maintain, and repair electrical power, communications, lighting, and control systems in homes, businesses, and factories.",
+    "workEnvironment": "Construction sites, homes, businesses",
+    "education": "High school diploma and apprenticeship",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
     "source": "BLS OOH 47-2111",
     "salary": 60240,
@@ -111,7 +111,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "17-2141",
@@ -120,10 +120,10 @@
       "Engineer",
       "Mechanical Designer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Design, develop, build, and test mechanical and thermal sensors and devices. Work on power-producing machines and power-using machines.",
+    "workEnvironment": "Manufacturing, engineering firms, offices",
+    "education": "Bachelor's degree in Mechanical Engineering",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm",
     "source": "BLS OOH 17-2141",
     "salary": 96310,
@@ -139,7 +139,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "29-1292",
@@ -148,10 +148,10 @@
       "Hygienist",
       "Dental Assistant"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Clean teeth, examine patients for signs of oral diseases, provide preventive dental care, and educate patients on ways to improve and maintain good oral health.",
+    "workEnvironment": "Dental offices",
+    "education": "Associate's degree and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/dental-hygienists.htm",
     "source": "BLS OOH 29-1292",
     "salary": 81400,
@@ -167,7 +167,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "11-2021",
@@ -176,10 +176,10 @@
       "Marketing Director",
       "Brand Manager"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Plan programs to generate interest in products or services. Work with art directors, advertising sales agents, and financial staff members.",
+    "workEnvironment": "Offices, remote work possible",
+    "education": "Bachelor's degree in Marketing or Business",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/management/advertising-promotions-and-marketing-managers.htm",
     "source": "BLS OOH 11-2021",
     "salary": 156580,
@@ -195,7 +195,7 @@
       "Strategic planning"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "47-2152",
@@ -204,10 +204,10 @@
       "Plumber",
       "Pipefitter"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Install and repair pipes that carry liquids or gases to, from, and within businesses, homes, and factories. Install plumbing fixtures and appliances.",
+    "workEnvironment": "Construction sites, homes, businesses",
+    "education": "High school diploma and apprenticeship",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
     "source": "BLS OOH 47-2152",
     "salary": 60090,
@@ -223,7 +223,7 @@
       "Mathematics"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "29-1123",
@@ -232,9 +232,9 @@
       "PT",
       "Physiotherapist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Help injured or ill people improve movement and manage pain. Work with patients to develop treatment plans and monitor progress.",
+    "workEnvironment": "Hospitals, clinics, private practices",
+    "education": "Doctoral degree (DPT) and state license",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/physical-therapists.htm",
     "source": "BLS OOH 29-1123",
@@ -251,7 +251,7 @@
       "Instruction"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.609Z"
   },
   {
     "soc": "27-1024",
@@ -260,10 +260,10 @@
       "Designer",
       "Visual Designer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Create visual concepts using computer software or by hand to communicate ideas that inspire, inform, and captivate consumers.",
+    "workEnvironment": "Advertising firms, design studios, remote",
+    "education": "Bachelor's degree in Graphic Design or related field",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm",
     "source": "BLS OOH 27-1024",
     "salary": 57990,
@@ -279,7 +279,7 @@
       "Time management"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "15-2051",
@@ -288,9 +288,9 @@
       "Data Analyst",
       "ML Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Use analytical tools and techniques to extract meaningful insights from data. Develop algorithms and predictive models to solve business problems.",
+    "workEnvironment": "Tech companies, corporations, remote",
+    "education": "Bachelor's or Master's degree in Data Science, Statistics, or Computer Science",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/math/data-scientists.htm",
     "source": "BLS OOH 15-2051",
@@ -307,7 +307,7 @@
       "Problem-solving"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "23-2011",
@@ -316,10 +316,10 @@
       "Legal Assistant",
       "Paralegal Specialist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Assist lawyers by investigating facts, preparing legal documents, and researching legal precedent. Help prepare cases for trial.",
+    "workEnvironment": "Law firms, corporate legal departments",
+    "education": "Associate's degree or certificate in Paralegal Studies",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
     "source": "BLS OOH 23-2011",
     "salary": 59200,
@@ -335,7 +335,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1131",
@@ -344,9 +344,9 @@
       "Vet",
       "Animal Doctor"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Care for the health of animals and work to protect public health. Diagnose, treat, and research medical conditions and diseases of pets, livestock, and other animals.",
+    "workEnvironment": "Animal hospitals, clinics, farms",
+    "education": "Doctoral degree (DVM) and state license",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
     "source": "BLS OOH 29-1131",
@@ -363,7 +363,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "15-1254",
@@ -372,9 +372,9 @@
       "Web Designer",
       "Frontend Developer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Design and create websites. Responsible for the look of the site, technical aspects like performance and capacity, and content management.",
+    "workEnvironment": "Tech companies, agencies, freelance",
+    "education": "Associate's or Bachelor's degree in Web Development or related field",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm",
     "source": "BLS OOH 15-1254",
@@ -391,7 +391,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "33-3051",
@@ -400,10 +400,10 @@
       "Cop",
       "Law Enforcement Officer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Protect lives and property. Patrol areas, respond to emergency calls, enforce laws, conduct traffic stops, and write detailed reports.",
+    "workEnvironment": "Police departments, patrol areas",
+    "education": "High school diploma and police academy training",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/protective-service/police-and-detectives.htm",
     "source": "BLS OOH 33-3051",
     "salary": 66020,
@@ -419,7 +419,7 @@
       "Integrity"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "13-2011",
@@ -428,10 +428,10 @@
       "CPA",
       "Tax Accountant"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Prepare and examine financial records. Ensure records are accurate and that taxes are paid properly and on time.",
+    "workEnvironment": "Accounting firms, corporations, government",
+    "education": "Bachelor's degree in Accounting",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
     "source": "BLS OOH 13-2011",
     "salary": 79880,
@@ -447,7 +447,7 @@
       "Analytical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "49-9021",
@@ -456,10 +456,10 @@
       "HVAC Tech",
       "Climate Control Technician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Install, maintain, and repair heating, ventilation, air conditioning, and refrigeration systems that control temperature and air quality.",
+    "workEnvironment": "Homes, businesses, outdoors",
+    "education": "Postsecondary certificate or apprenticeship",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
     "source": "BLS OOH 49-9021",
     "salary": 57300,
@@ -475,7 +475,7 @@
       "Mathematics"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1122",
@@ -484,9 +484,9 @@
       "OT",
       "Rehab Therapist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Help people with injuries, illnesses, or disabilities develop, recover, and improve skills needed for daily living and working.",
+    "workEnvironment": "Hospitals, schools, rehab centers",
+    "education": "Master's degree in Occupational Therapy and state license",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/occupational-therapists.htm",
     "source": "BLS OOH 29-1122",
@@ -503,7 +503,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-2051",
@@ -512,10 +512,10 @@
       "Structural Engineer",
       "Construction Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Design, build, supervise, operate, and maintain construction projects and systems such as roads, buildings, airports, tunnels, and water supply systems.",
+    "workEnvironment": "Offices, construction sites",
+    "education": "Bachelor's degree in Civil Engineering",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/civil-engineers.htm",
     "source": "BLS OOH 17-2051",
     "salary": 89940,
@@ -531,7 +531,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "35-1011",
@@ -541,9 +541,9 @@
       "Executive Chef",
       "Head Cook"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Direct the preparation, seasoning, and cooking of food. Plan menus, order supplies, and oversee kitchen operations.",
+    "workEnvironment": "Restaurants, hotels, catering companies",
+    "education": "High school diploma or culinary arts degree",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm",
     "source": "BLS OOH 35-1011",
@@ -560,7 +560,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1071",
@@ -569,9 +569,9 @@
       "PA",
       "Physician Associate"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Practice medicine on healthcare teams with physicians, surgeons, and other healthcare workers. Examine patients, diagnose injuries and illnesses, and provide treatment.",
+    "workEnvironment": "Hospitals, clinics, doctor's offices",
+    "education": "Master's degree from an accredited PA program and state license",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/physician-assistants.htm",
     "source": "BLS OOH 29-1071",
@@ -588,7 +588,7 @@
       "Problem-solving"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "41-9021",
@@ -597,10 +597,10 @@
       "Real Estate Agent",
       "Realtor"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Help clients buy, sell, and rent properties. Advise clients on market conditions, conduct walkthroughs, and handle negotiations.",
+    "workEnvironment": "Real estate offices, homes, remote",
+    "education": "High school diploma and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm",
     "source": "BLS OOH 41-9021",
     "salary": 54300,
@@ -616,7 +616,7 @@
       "Customer service"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1051",
@@ -625,10 +625,10 @@
       "Pharmacist",
       "Clinical Pharmacist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Dispense prescription medications to patients and offer expertise in the safe use of prescriptions. Advise patients and healthcare providers on proper medication usage.",
+    "workEnvironment": "Pharmacies, hospitals, clinics",
+    "education": "Doctoral degree (PharmD) and state license",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
     "source": "BLS OOH 29-1051",
     "salary": 132750,
@@ -644,7 +644,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "15-1212",
@@ -653,9 +653,9 @@
       "Cybersecurity Analyst",
       "Security Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Plan and carry out security measures to protect an organization's computer networks and systems. Monitor networks for security breaches and investigate violations.",
+    "workEnvironment": "Tech companies, government, remote",
+    "education": "Bachelor's degree in Computer Science or Cybersecurity",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
     "source": "BLS OOH 15-1212",
@@ -672,7 +672,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "21-1029",
@@ -681,10 +681,10 @@
       "Clinical Social Worker",
       "Case Manager"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Help people prevent and cope with problems in their everyday lives. Clinical social workers diagnose and treat mental, behavioral, and emotional issues.",
+    "workEnvironment": "Healthcare facilities, schools, government agencies",
+    "education": "Bachelor's or Master's degree in Social Work",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
     "source": "BLS OOH 21-1029",
     "salary": 55350,
@@ -700,7 +700,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-2011",
@@ -709,10 +709,10 @@
       "Aeronautical Engineer",
       "Flight Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Design aircraft, spacecraft, satellites, and missiles. Test prototypes to make sure they function according to design specifications.",
+    "workEnvironment": "Aerospace companies, government agencies",
+    "education": "Bachelor's degree in Aerospace Engineering",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm",
     "source": "BLS OOH 17-2011",
     "salary": 126880,
@@ -728,7 +728,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "31-9091",
@@ -737,10 +737,10 @@
       "Dental Aid",
       "Chairside Assistant"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Provide chairside assistance to dentists. Prepare patients for treatment, sterilize instruments, and take X-rays.",
+    "workEnvironment": "Dental offices",
+    "education": "Certificate or diploma from a dental assisting program",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
     "source": "BLS OOH 31-9091",
     "salary": 43950,
@@ -756,7 +756,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "13-2051",
@@ -765,10 +765,10 @@
       "Investment Analyst",
       "Budget Analyst"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Provide guidance to businesses and individuals making investment decisions. Assess the performance of stocks, bonds, and other investments.",
+    "workEnvironment": "Banks, insurance companies, investment firms",
+    "education": "Bachelor's degree in Finance or related field",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
     "source": "BLS OOH 13-2051",
     "salary": 99890,
@@ -784,7 +784,7 @@
       "Research"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "11-9021",
@@ -793,10 +793,10 @@
       "Project Manager",
       "Site Manager"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Plan, coordinate, budget, and supervise construction projects from start to finish. Ensure projects are completed on time and within budget.",
+    "workEnvironment": "Construction sites, offices",
+    "education": "Bachelor's degree in Construction Management or related field",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/management/construction-managers.htm",
     "source": "BLS OOH 11-9021",
     "salary": 101480,
@@ -812,7 +812,7 @@
       "Decision-making"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "31-9092",
@@ -821,9 +821,9 @@
       "Clinical Assistant",
       "Healthcare Assistant"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Complete administrative and clinical tasks in hospitals, offices of physicians, and other healthcare facilities. Take patient history and vital signs.",
+    "workEnvironment": "Hospitals, clinics, doctor's offices",
+    "education": "Postsecondary certificate",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
     "source": "BLS OOH 31-9092",
@@ -840,7 +840,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-1011",
@@ -849,10 +849,10 @@
       "Architect",
       "Building Designer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Plan and design houses, office buildings, and other structures. Meet with clients, develop initial proposals, and prepare drawings and specifications.",
+    "workEnvironment": "Architecture firms, self-employed",
+    "education": "Bachelor's or Master's degree in Architecture and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
     "source": "BLS OOH 17-1011",
     "salary": 89560,
@@ -868,7 +868,7 @@
       "Problem-solving"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "33-2011",
@@ -877,10 +877,10 @@
       "Fireman",
       "Fire Protection Specialist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Respond to fires and other emergencies. Rescue victims, provide medical attention, and prevent fires through inspections and education.",
+    "workEnvironment": "Fire stations, emergency scenes",
+    "education": "High school diploma and firefighter academy training",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/protective-service/firefighters.htm",
     "source": "BLS OOH 33-2011",
     "salary": 57120,
@@ -896,7 +896,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "11-3121",
@@ -905,10 +905,10 @@
       "HR Manager",
       "People Manager"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Plan, coordinate, and direct the administrative functions of an organization. Oversee recruiting, interviewing, and hiring of new staff.",
+    "workEnvironment": "Offices, various organizations",
+    "education": "Bachelor's degree in Human Resources or Business",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/management/human-resources-managers.htm",
     "source": "BLS OOH 11-3121",
     "salary": 130000,
@@ -924,7 +924,7 @@
       "Interpersonal skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1124",
@@ -933,10 +933,10 @@
       "Radiation Tech",
       "Oncology Therapist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Treat cancer and other diseases using radiation therapy. Operate machines to deliver concentrated radiation therapy to targeted areas.",
+    "workEnvironment": "Hospitals, cancer treatment centers",
+    "education": "Associate's or Bachelor's degree and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/radiation-therapists.htm",
     "source": "BLS OOH 29-1124",
     "salary": 98300,
@@ -952,7 +952,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "13-2072",
@@ -961,10 +961,10 @@
       "Mortgage Broker",
       "Loan Specialist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Evaluate, authorize, or recommend approval of loan applications. Help customers choose the right loan product and guide them through the application process.",
+    "workEnvironment": "Banks, credit unions, mortgage companies",
+    "education": "Bachelor's degree and state license",
+    "jobOutlookText": "Slower than average",
     "oohUrl": "https://www.bls.gov/ooh/business-and-financial/loan-officers.htm",
     "source": "BLS OOH 13-2072",
     "salary": 65740,
@@ -980,7 +980,7 @@
       "Analytical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-2199",
@@ -989,10 +989,10 @@
       "Robotics Engineer",
       "Systems Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Design, build, and test robots and robotic systems. Work on automation solutions for manufacturing, healthcare, and other industries.",
+    "workEnvironment": "Manufacturing, tech companies, research labs",
+    "education": "Bachelor's degree in Robotics Engineering or related field",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/engineers.htm",
     "source": "BLS OOH 17-2199",
     "salary": 99040,
@@ -1008,7 +1008,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-2032",
@@ -1017,10 +1017,10 @@
       "Ultrasound Technician",
       "Sonographer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Use special imaging equipment to create images or conduct tests. Use sonography to help physicians assess and diagnose various medical conditions.",
+    "workEnvironment": "Hospitals, diagnostic labs, doctor's offices",
+    "education": "Associate's degree",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm",
     "source": "BLS OOH 29-2032",
     "salary": 78210,
@@ -1036,7 +1036,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "13-1121",
@@ -1045,8 +1045,8 @@
       "Event Planner",
       "Event Coordinator"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "description": "Coordinate all aspects of professional meetings and events. Choose locations, arrange transportation, and coordinate other details for successful events.",
+    "workEnvironment": "Hotels, convention centers, offices",
     "education": "Bachelor's degree",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm",
@@ -1064,7 +1064,7 @@
       "Problem-solving"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1211",
@@ -1073,10 +1073,10 @@
       "Anesthesiologist",
       "Anesthesia Doctor"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Administer anesthetics during surgery and other medical procedures. Monitor patients before, during, and after anesthesia administration.",
+    "workEnvironment": "Hospitals, surgical centers",
+    "education": "Medical degree (MD/DO), residency, and state license",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
     "source": "BLS OOH 29-1211",
     "salary": 331190,
@@ -1092,7 +1092,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-1021",
@@ -1101,10 +1101,10 @@
       "Dentist",
       "Dental Surgeon"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Diagnose and treat problems with patients' teeth, gums, and related parts of the mouth. Provide advice and instruction on taking care of teeth and gums.",
+    "workEnvironment": "Dental offices, private practice",
+    "education": "Doctoral degree (DDS/DMD) and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/dentists.htm",
     "source": "BLS OOH 29-1021",
     "salary": 163220,
@@ -1120,7 +1120,7 @@
       "Patient care"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "51-4121",
@@ -1129,10 +1129,10 @@
       "Welder",
       "Metal Fabricator"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Use hand-held or remotely controlled equipment to join or cut metal parts. Work with various metals and alloys in manufacturing and construction.",
+    "workEnvironment": "Manufacturing plants, construction sites",
+    "education": "High school diploma and technical training",
+    "jobOutlookText": "Slower than average",
     "oohUrl": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
     "source": "BLS OOH 51-4121",
     "salary": 47540,
@@ -1148,7 +1148,7 @@
       "Problem-solving"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-1025",
@@ -1157,10 +1157,10 @@
       "Interior Decorator",
       "Space Planner"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
+    "description": "Make interior spaces functional, safe, and beautiful by determining space requirements and selecting decorative items. Read blueprints and must be aware of building codes.",
+    "workEnvironment": "Design firms, self-employed, retail",
     "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm",
     "source": "BLS OOH 27-1025",
     "salary": 62510,
@@ -1176,7 +1176,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-1022",
@@ -1185,10 +1185,10 @@
       "Fashion Designer",
       "Apparel Designer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Create original clothing, accessories, and footwear. Sketch designs, select fabrics and patterns, and give instructions on how to make products they design.",
+    "workEnvironment": "Design studios, apparel companies, self-employed",
+    "education": "Bachelor's degree in Fashion Design",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm",
     "source": "BLS OOH 27-1022",
     "salary": 76700,
@@ -1204,7 +1204,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "53-2021",
@@ -1213,10 +1213,10 @@
       "ATC",
       "Flight Controller"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Coordinate the movement of aircraft to maintain safe distances between them. Direct pilots during takeoff and landing, and monitor aircraft in flight.",
+    "workEnvironment": "Control towers, approach control facilities",
+    "education": "Associate's or Bachelor's degree and FAA training",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
     "source": "BLS OOH 53-2021",
     "salary": 132250,
@@ -1232,7 +1232,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "29-2042",
@@ -1241,10 +1241,10 @@
       "EMT",
       "Paramedic"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Respond to emergency calls, perform medical services and transport patients to medical facilities. Assess injuries, administer emergency medical care, and use medical equipment.",
+    "workEnvironment": "Ambulances, emergency scenes",
+    "education": "Postsecondary certificate and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
     "source": "BLS OOH 29-2042",
     "salary": 49090,
@@ -1260,7 +1260,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-2041",
@@ -1269,9 +1269,9 @@
       "Process Engineer",
       "Chemical Designer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Apply chemistry, biology, physics, and math principles to solve problems involving the production or use of chemicals, fuel, drugs, food, and many other products.",
+    "workEnvironment": "Laboratories, manufacturing plants, offices",
+    "education": "Bachelor's degree in Chemical Engineering",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm",
     "source": "BLS OOH 17-2041",
@@ -1288,7 +1288,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "19-2031",
@@ -1297,10 +1297,10 @@
       "Lab Chemist",
       "Research Chemist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Research and develop processes, products, and materials. Study substances at the atomic and molecular levels and analyze the interactions between them.",
+    "workEnvironment": "Laboratories, pharmaceutical companies",
+    "education": "Bachelor's degree in Chemistry",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/chemists-and-materials-scientists.htm",
     "source": "BLS OOH 19-2031",
     "salary": 79430,
@@ -1316,7 +1316,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "23-1011",
@@ -1325,10 +1325,10 @@
       "Attorney",
       "Counsel"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Advise and represent individuals, businesses, and government agencies on legal issues and disputes. Research and interpret laws, present facts and evidence.",
+    "workEnvironment": "Law firms, corporate offices, courts",
+    "education": "Doctoral degree (JD) and state bar license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/legal/lawyers.htm",
     "source": "BLS OOH 23-1011",
     "salary": 135740,
@@ -1344,7 +1344,7 @@
       "Critical thinking"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "17-2171",
@@ -1353,10 +1353,10 @@
       "Oil Engineer",
       "Drilling Engineer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Design and develop methods for extracting oil and gas from deposits below the Earth's surface. Devise ways to improve production and find new oil and gas reserves.",
+    "workEnvironment": "Oil fields, offices, laboratories",
+    "education": "Bachelor's degree in Petroleum Engineering",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/architecture-and-engineering/petroleum-engineers.htm",
     "source": "BLS OOH 17-2171",
     "salary": 131800,
@@ -1372,7 +1372,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "51-8013",
@@ -1381,10 +1381,10 @@
       "Plant Operator",
       "Energy Technician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Control, operate, and maintain machinery to generate electric power. Monitor instruments, start or stop generators and turbines, and record data.",
+    "workEnvironment": "Power plants, control rooms",
+    "education": "High school diploma and long-term on-the-job training",
+    "jobOutlookText": "Decline",
     "oohUrl": "https://www.bls.gov/ooh/production/power-plant-operators-distributors-and-dispatchers.htm",
     "source": "BLS OOH 51-8013",
     "salary": 94790,
@@ -1400,7 +1400,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "19-1023",
@@ -1409,10 +1409,10 @@
       "Wildlife Biologist",
       "Zoologist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Study animals and other wildlife and how they interact with their ecosystems. Study characteristics, behaviors, and habitats of wildlife species.",
+    "workEnvironment": "Outdoors, laboratories, offices",
+    "education": "Bachelor's degree in Biology or Wildlife Biology",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
     "source": "BLS OOH 19-1023",
     "salary": 66350,
@@ -1428,7 +1428,7 @@
       "Research"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "25-2031",
@@ -1437,10 +1437,10 @@
       "High School Teacher",
       "Biology Teacher"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Teach biology and life science courses to high school students. Prepare lesson plans, assess student learning, and maintain classroom discipline.",
+    "workEnvironment": "High schools, classrooms",
+    "education": "Bachelor's degree and state teaching license",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm",
     "source": "BLS OOH 25-2031",
     "salary": 65220,
@@ -1456,7 +1456,7 @@
       "Organization"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "31-9097",
@@ -1465,10 +1465,10 @@
       "Blood Draw Technician",
       "Phlebotomy Tech"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Draw blood from patients and donors for tests, transfusions, research, or blood donations. Verify patient identity and label blood samples.",
+    "workEnvironment": "Hospitals, laboratories, blood donation centers",
+    "education": "Postsecondary certificate and state certification",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
     "source": "BLS OOH 31-9097",
     "salary": 38530,
@@ -1484,7 +1484,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "39-5012",
@@ -1493,10 +1493,10 @@
       "Hair Stylist",
       "Beautician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Shampoo, cut, color, and style hair. May also provide scalp treatments and consultations on hair care and styling.",
+    "workEnvironment": "Salons, spas, self-employed",
+    "education": "Postsecondary certificate and state license",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
     "source": "BLS OOH 39-5012",
     "salary": 33400,
@@ -1512,7 +1512,7 @@
       "Technical skills"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "41-2011",
@@ -1521,10 +1521,10 @@
       "Cashier",
       "Checkout Clerk"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Process customer transactions, accept payments, and give change. Scan items, bag purchases, and provide customer service.",
+    "workEnvironment": "Retail stores, restaurants, gas stations",
+    "education": "High school diploma or less",
+    "jobOutlookText": "Decline",
     "oohUrl": "https://www.bls.gov/ooh/sales/retail-sales-workers.htm",
     "source": "BLS OOH 41-2011",
     "salary": 29720,
@@ -1540,7 +1540,7 @@
       "Patience"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "15-1251",
@@ -1549,10 +1549,10 @@
       "Programmer",
       "Coder"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Write and test code that allows computer applications and software programs to function. Update and expand existing programs.",
+    "workEnvironment": "Tech companies, offices, remote",
+    "education": "Bachelor's degree in Computer Science",
+    "jobOutlookText": "Decline",
     "oohUrl": "https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm",
     "source": "BLS OOH 15-1251",
     "salary": 97800,
@@ -1568,7 +1568,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-2021",
@@ -1577,10 +1577,10 @@
       "Professional Athlete",
       "Sports Player"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Compete in athletic events and sports competitions. Practice and train to maintain peak physical condition and athletic performance.",
+    "workEnvironment": "Sports facilities, training centers, travel",
+    "education": "Varies - Exceptional athletic ability required",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/athletes-and-sports-competitors.htm",
     "source": "BLS OOH 27-2021",
     "salary": 77300,
@@ -1596,7 +1596,7 @@
       "Competitive spirit"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "43-3071",
@@ -1605,10 +1605,10 @@
       "Bank Teller",
       "Customer Service Rep"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Conduct financial transactions for customers. Process deposits and withdrawals, cash checks, and handle customer service inquiries.",
+    "workEnvironment": "Banks, credit unions",
+    "education": "High school diploma",
+    "jobOutlookText": "Decline",
     "oohUrl": "https://www.bls.gov/ooh/office-and-administrative-support/tellers.htm",
     "source": "BLS OOH 43-3071",
     "salary": 36310,
@@ -1624,7 +1624,7 @@
       "Organization"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "49-3023",
@@ -1633,10 +1633,10 @@
       "Auto Mechanic",
       "Car Technician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Inspect, maintain, and repair cars and light trucks. Identify problems, often by using computerized diagnostic equipment.",
+    "workEnvironment": "Repair shops, dealerships",
+    "education": "High school diploma and technical training",
+    "jobOutlookText": "Slower than average",
     "oohUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/automotive-service-technicians-and-mechanics.htm",
     "source": "BLS OOH 49-3023",
     "salary": 46970,
@@ -1652,7 +1652,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-4021",
@@ -1661,10 +1661,10 @@
       "Photographer",
       "Photo Specialist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Capture subjects in commercial-quality photographs. Use technical expertise, creativity, and composition skills to produce images.",
+    "workEnvironment": "Studios, events, outdoors, self-employed",
+    "education": "High school diploma to Bachelor's degree",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/media-and-communication/photographers.htm",
     "source": "BLS OOH 27-4021",
     "salary": 38950,
@@ -1680,7 +1680,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-2012",
@@ -1689,10 +1689,10 @@
       "Film Director",
       "Movie Director"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Interpret scripts, direct actors and crew, and oversee all aspects of film and television production. Make creative decisions about artistic elements.",
+    "workEnvironment": "Film sets, studios, location shoots",
+    "education": "Bachelor's degree in Film or related field",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/producers-and-directors.htm",
     "source": "BLS OOH 27-2012",
     "salary": 92220,
@@ -1708,7 +1708,7 @@
       "Decision-making"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-2011",
@@ -1718,10 +1718,10 @@
       "Actress",
       "Performer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Portray characters in performances. Work from scripts and interpret the writer's words to entertain, inform, or instruct audiences.",
+    "workEnvironment": "Film sets, theaters, studios",
+    "education": "Varies - Some have Bachelor's degrees in Drama",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/entertainment-and-sports/actors.htm",
     "source": "BLS OOH 27-2011",
     "salary": 28920,
@@ -1737,7 +1737,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "25-4021",
@@ -1746,10 +1746,10 @@
       "Librarian",
       "Media Specialist"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Help people find information and conduct research. Organize library materials and teach patrons how to find and use resources.",
+    "workEnvironment": "Public libraries, schools, universities",
+    "education": "Master's degree in Library Science",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
     "source": "BLS OOH 25-4021",
     "salary": 64370,
@@ -1765,7 +1765,7 @@
       "Customer service"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "27-3043",
@@ -1775,10 +1775,10 @@
       "Author",
       "Content Writer"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Develop original written content for books, magazines, websites, scripts, and other publications. Research topics and interview sources.",
+    "workEnvironment": "Offices, remote, self-employed",
+    "education": "Bachelor's degree in English or Journalism",
+    "jobOutlookText": "Faster than average",
     "oohUrl": "https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm",
     "source": "BLS OOH 27-3043",
     "salary": 73150,
@@ -1794,7 +1794,7 @@
       "Attention to detail"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "15-2021",
@@ -1803,10 +1803,10 @@
       "Mathematician",
       "Applied Mathematician"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
-    "jobOutlookText": "Much faster than average",
+    "description": "Use advanced mathematics to develop and understand mathematical principles, analyze data, and solve real-world problems.",
+    "workEnvironment": "Government, research institutions, universities",
+    "education": "Master's or Doctoral degree in Mathematics",
+    "jobOutlookText": "As fast as average",
     "oohUrl": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
     "source": "BLS OOH 15-2021",
     "salary": 108100,
@@ -1822,7 +1822,7 @@
       "Communication"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   },
   {
     "soc": "11-3031",
@@ -1832,9 +1832,9 @@
       "CFO",
       "Controller"
     ],
-    "description": "Provide and coordinate patient care, educate patients and the public about various health conditions.",
-    "workEnvironment": "Hospitals, physicians offices, home healthcare services, and nursing care facilities.",
-    "education": "Bachelor's degree",
+    "description": "Create financial reports, direct investment activities, and develop strategies and plans for the long-term financial goals of organizations.",
+    "workEnvironment": "Offices, corporations, financial firms",
+    "education": "Bachelor's degree in Finance or related field",
     "jobOutlookText": "Much faster than average",
     "oohUrl": "https://www.bls.gov/ooh/management/financial-managers.htm",
     "source": "BLS OOH 11-3031",
@@ -1851,6 +1851,6 @@
       "Strategic planning"
     ],
     "skillsSource": "onet",
-    "lastUpdated": "2025-10-26T02:11:10.522Z"
+    "lastUpdated": "2025-10-26T16:11:41.610Z"
   }
 ]

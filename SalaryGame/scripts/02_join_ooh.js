@@ -16,6 +16,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { OOH_DATA_MAP } = require('./ooh_data_map');
 
 const INPUT_FILE = path.join(__dirname, '../build/01_onet_seed.json');
 const OUTPUT_FILE = path.join(__dirname, '../build/02_with_ooh.json');
@@ -91,14 +92,6 @@ const SOC_TO_OOH_URL = {
   '11-3031': 'management/financial-managers.htm'
 };
 
-// Mock OOH data (in real implementation, this would be scraped or from a dataset)
-const MOCK_OOH_DATA = {
-  description: 'Provide and coordinate patient care, educate patients and the public about various health conditions.',
-  workEnvironment: 'Hospitals, physicians offices, home healthcare services, and nursing care facilities.',
-  education: "Bachelor's degree",
-  jobOutlookText: 'Much faster than average'
-};
-
 function joinOohData() {
   console.log('🔗 Joining OOH data to occupations...');
 
@@ -114,14 +107,19 @@ function joinOohData() {
     const oohPath = SOC_TO_OOH_URL[occ.soc];
     const oohUrl = oohPath ? `https://www.bls.gov/ooh/${oohPath}` : null;
 
-    // In real implementation, fetch or load OOH data here
-    // For now, use mock data
+    // Get career-specific OOH data from mapping
+    const oohData = OOH_DATA_MAP[occ.soc];
+
+    if (!oohData) {
+      console.warn(`⚠️  No OOH data found for ${occ.title} (${occ.soc})`);
+    }
+
     return {
       ...occ,
-      description: MOCK_OOH_DATA.description,
-      workEnvironment: MOCK_OOH_DATA.workEnvironment,
-      education: MOCK_OOH_DATA.education,
-      jobOutlookText: MOCK_OOH_DATA.jobOutlookText,
+      description: oohData?.description || 'Description not available',
+      workEnvironment: oohData?.workEnvironment || 'Work environment not available',
+      education: oohData?.education || 'Education requirements not available',
+      jobOutlookText: oohData?.jobOutlookText || 'Job outlook not available',
       oohUrl,
       source: `BLS OOH ${occ.soc}`
     };
