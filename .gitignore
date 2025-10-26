@@ -32,3 +32,6 @@ temp/
 
 # Student records
 student_records.json
+
+# SalaryGame data downloads (temporary)
+SalaryGame/data/
