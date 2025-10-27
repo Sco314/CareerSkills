@@ -4,15 +4,12 @@
   "description": "Career Salary Comparison Game with pre-built careers library from authoritative datasets",
   "main": "server.js",
   "scripts": {
-    "build:data": "node scripts/01_seed_onet && node scripts/02_join_ooh && node scripts/03_join_oes_wage && node scripts/04_join_ep_outlook && node scripts/05_join_onet_skills && node scripts/06_fallbacks && node scripts/07_validate_emit && node scripts/report_coverage",
-    "seed": "node scripts/01_seed_onet",
-    "join:ooh": "node scripts/02_join_ooh",
-    "join:wages": "node scripts/03_join_oes_wage",
-    "join:outlook": "node scripts/04_join_ep_outlook",
-    "join:skills": "node scripts/05_join_onet_skills",
-    "fallbacks": "node scripts/06_fallbacks",
-    "validate": "node scripts/07_validate_emit",
-    "report": "node scripts/report_coverage",
+    "build:data": "node scripts/5-build-all.js",
+    "parse": "node scripts/1-parse-xml.js",
+    "validate": "node scripts/2-validate-data.js",
+    "metadata": "node scripts/3-generate-metadata.js",
+    "optimize": "node scripts/4-optimize-for-game.js",
+    "report": "node scripts/report_coverage.js",
     "start": "node server.js",
     "dev": "node server.js"
   },
@@ -29,7 +26,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {},
   "engines": {
