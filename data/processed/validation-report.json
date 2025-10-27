@@ -1,0 +1,3441 @@
+{
+  "summary": {
+    "total_careers": 342,
+    "valid_careers": 342,
+    "invalid_careers": 0,
+    "careers_with_warnings": 342,
+    "total_errors": 0,
+    "total_warnings": 343,
+    "duplicate_socs": 0
+  },
+  "validation_results": [
+    {
+      "id": 1,
+      "soc": "13-2011",
+      "title": "Accountants and Auditors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 2,
+      "soc": "27-2011",
+      "title": "Actors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 3,
+      "soc": "15-2011",
+      "title": "Actuaries",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 4,
+      "soc": "11-3012",
+      "title": "Administrative Services and Facilities Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 5,
+      "soc": "25-3011",
+      "title": "Adult Basic and Secondary Education and ESL Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 6,
+      "soc": "11-2021",
+      "title": "Advertising, Promotions, and Marketing Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 7,
+      "soc": "41-3011",
+      "title": "Advertising Sales Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 8,
+      "soc": "17-3021",
+      "title": "Aerospace Engineering and Operations Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 9,
+      "soc": "17-2011",
+      "title": "Aerospace Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 10,
+      "soc": "19-4012",
+      "title": "Agricultural and Food Science Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 11,
+      "soc": "19-1011",
+      "title": "Agricultural and Food Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 12,
+      "soc": "17-2021",
+      "title": "Agricultural Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 13,
+      "soc": "45-2099",
+      "title": "Agricultural Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 14,
+      "soc": "49-3011",
+      "title": "Aircraft and Avionics Equipment Mechanics and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 15,
+      "soc": "53-2011",
+      "title": "Airline and Commercial Pilots",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 16,
+      "soc": "53-2021",
+      "title": "Air Traffic Controllers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 17,
+      "soc": "39-2011",
+      "title": "Animal Care and Service Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 18,
+      "soc": "27-2091",
+      "title": "Announcers and DJs",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 19,
+      "soc": "19-3091",
+      "title": "Anthropologists and Archeologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 20,
+      "soc": "23-1022",
+      "title": "Arbitrators, Mediators, and Conciliators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 21,
+      "soc": "17-1011",
+      "title": "Architects",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 22,
+      "soc": "11-9041",
+      "title": "Architectural and Engineering Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 23,
+      "soc": "25-4013",
+      "title": "Archivists, Curators, and Museum Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 24,
+      "soc": "27-1011",
+      "title": "Art Directors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 25,
+      "soc": "51-2021",
+      "title": "Assemblers and Fabricators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 26,
+      "soc": "27-2021",
+      "title": "Athletes and Sports Competitors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 27,
+      "soc": "29-9091",
+      "title": "Athletic Trainers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 28,
+      "soc": "19-2021",
+      "title": "Atmospheric Scientists, Including Meteorologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 29,
+      "soc": "29-1181",
+      "title": "Audiologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 30,
+      "soc": "49-3022",
+      "title": "Automotive Body and Glass Repairers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 31,
+      "soc": "49-3023",
+      "title": "Automotive Service Technicians and Mechanics",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 32,
+      "soc": "51-3011",
+      "title": "Bakers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 33,
+      "soc": "39-5011",
+      "title": "Barbers, Hairstylists, and Cosmetologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 34,
+      "soc": "35-3011",
+      "title": "Bartenders",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 35,
+      "soc": "43-3011",
+      "title": "Bill and Account Collectors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 36,
+      "soc": "19-1021",
+      "title": "Biochemists and Biophysicists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 37,
+      "soc": "17-2031",
+      "title": "Bioengineers and Biomedical Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 38,
+      "soc": "19-4021",
+      "title": "Biological Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 39,
+      "soc": "47-2011",
+      "title": "Boilermakers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 40,
+      "soc": "43-3031",
+      "title": "Bookkeeping, Accounting, and Auditing Clerks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 41,
+      "soc": "27-4014",
+      "title": "Broadcast, Sound, and Video Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 42,
+      "soc": "13-2031",
+      "title": "Budget Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 43,
+      "soc": "53-3051",
+      "title": "Bus Drivers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 44,
+      "soc": "51-3021",
+      "title": "Butchers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 45,
+      "soc": "17-3028",
+      "title": "Calibration Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 46,
+      "soc": "29-2031",
+      "title": "Cardiovascular Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 47,
+      "soc": "25-1194",
+      "title": "Career and Technical Education Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 48,
+      "soc": "47-2031",
+      "title": "Carpenters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 49,
+      "soc": "17-1021",
+      "title": "Cartographers and Photogrammetrists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 50,
+      "soc": "41-2011",
+      "title": "Cashiers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 51,
+      "soc": "35-1011",
+      "title": "Chefs and Head Cooks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 52,
+      "soc": "17-2041",
+      "title": "Chemical Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 53,
+      "soc": "19-4031",
+      "title": "Chemical Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 54,
+      "soc": "19-2032",
+      "title": "Chemists and Materials Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 55,
+      "soc": "39-9011",
+      "title": "Childcare Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 56,
+      "soc": "29-1011",
+      "title": "Chiropractors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 57,
+      "soc": "17-3022",
+      "title": "Civil Engineering Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 58,
+      "soc": "17-2051",
+      "title": "Civil Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 59,
+      "soc": "13-1032",
+      "title": "Claims Adjusters, Appraisers, Examiners, and Investigators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 60,
+      "soc": "29-2010",
+      "title": "Clinical Laboratory Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 61,
+      "soc": "27-2022",
+      "title": "Coaches and Scouts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 62,
+      "soc": "21-1094",
+      "title": "Community Health Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 63,
+      "soc": "13-1141",
+      "title": "Compensation, Benefits, and Job Analysis Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 64,
+      "soc": "11-3111",
+      "title": "Compensation and Benefits Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 65,
+      "soc": "13-1041",
+      "title": "Compliance Officers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 66,
+      "soc": "15-1221",
+      "title": "Computer and Information Research Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 67,
+      "soc": "11-3021",
+      "title": "Computer and Information Systems Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 68,
+      "soc": "17-2061",
+      "title": "Computer Hardware Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 69,
+      "soc": "15-1241",
+      "title": "Computer Network Architects",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 70,
+      "soc": "15-1251",
+      "title": "Computer Programmers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 71,
+      "soc": "15-1231",
+      "title": "Computer Support Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 72,
+      "soc": "15-1211",
+      "title": "Computer Systems Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 73,
+      "soc": "39-6012",
+      "title": "Concierges",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 74,
+      "soc": "19-1032",
+      "title": "Conservation Scientists and Foresters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 75,
+      "soc": "47-4011",
+      "title": "Construction and Building Inspectors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 76,
+      "soc": "47-2073",
+      "title": "Construction Equipment Operators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 77,
+      "soc": "47-3011",
+      "title": "Construction Laborers and Helpers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 78,
+      "soc": "11-9021",
+      "title": "Construction Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 79,
+      "soc": "35-2014",
+      "title": "Cooks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 80,
+      "soc": "33-3011",
+      "title": "Correctional Officers and Bailiffs",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 81,
+      "soc": "13-1051",
+      "title": "Cost Estimators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 82,
+      "soc": "27-3092",
+      "title": "Court Reporters and Simultaneous Captioners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 83,
+      "soc": "27-1012",
+      "title": "Craft and Fine Artists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 84,
+      "soc": "13-2071",
+      "title": "Credit Counselors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 85,
+      "soc": "43-4051",
+      "title": "Customer Service Representatives",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 86,
+      "soc": "27-2031",
+      "title": "Dancers and Choreographers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 87,
+      "soc": "15-1242",
+      "title": "Database Administrators and Architects",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 88,
+      "soc": "15-2051",
+      "title": "Data Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 89,
+      "soc": "53-3033",
+      "title": "Delivery Truck Drivers and Driver/Sales Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 90,
+      "soc": "51-9082",
+      "title": "Dental and Ophthalmic Laboratory Technicians and Medical Appliance Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 91,
+      "soc": "31-9091",
+      "title": "Dental Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 92,
+      "soc": "29-1292",
+      "title": "Dental Hygienists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 93,
+      "soc": "29-1021",
+      "title": "Dentists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 94,
+      "soc": "43-9031",
+      "title": "Desktop Publishers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 95,
+      "soc": "29-2032",
+      "title": "Diagnostic Medical Sonographers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 96,
+      "soc": "49-3031",
+      "title": "Diesel Service Technicians and Mechanics",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 97,
+      "soc": "29-1031",
+      "title": "Dietitians and Nutritionists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 98,
+      "soc": "17-3011",
+      "title": "Drafters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 99,
+      "soc": "47-2082",
+      "title": "Drywall Installers, Ceiling Tile Installers, and Tapers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 100,
+      "soc": "19-3011",
+      "title": "Economists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 101,
+      "soc": "27-3041",
+      "title": "Editors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 102,
+      "soc": "17-3023",
+      "title": "Electrical and Electronic Engineering Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 103,
+      "soc": "17-2072",
+      "title": "Electrical and Electronics Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 104,
+      "soc": "49-2096",
+      "title": "Electrical and Electronics Installers and Repairers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 105,
+      "soc": "49-9051",
+      "title": "Electrical Power-Line Installers and Repairers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 106,
+      "soc": "47-2111",
+      "title": "Electricians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 107,
+      "soc": "17-3024",
+      "title": "Electro-mechanical and Mechatronics Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 108,
+      "soc": "11-9032",
+      "title": "Elementary, Middle, and High School Principals",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 109,
+      "soc": "47-4021",
+      "title": "Elevator and Escalator Installers and Repairers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 110,
+      "soc": "11-9161",
+      "title": "Emergency Management Directors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 111,
+      "soc": "29-2043",
+      "title": "EMTs and Paramedics",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 112,
+      "soc": "11-9072",
+      "title": "Entertainment and Recreation Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 113,
+      "soc": "17-3025",
+      "title": "Environmental Engineering Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 114,
+      "soc": "17-2081",
+      "title": "Environmental Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 115,
+      "soc": "19-4042",
+      "title": "Environmental Science and Protection Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 116,
+      "soc": "19-2041",
+      "title": "Environmental Scientists and Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 117,
+      "soc": "19-1041",
+      "title": "Epidemiologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 118,
+      "soc": "29-1128",
+      "title": "Exercise Physiologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 119,
+      "soc": "11-9013",
+      "title": "Farmers, Ranchers, and Other Agricultural Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 120,
+      "soc": "27-1022",
+      "title": "Fashion Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 121,
+      "soc": "27-4032",
+      "title": "Film and Video Editors and Camera Operators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 122,
+      "soc": "13-2054",
+      "title": "Financial Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 123,
+      "soc": "43-3041",
+      "title": "Financial Clerks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 124,
+      "soc": "13-2061",
+      "title": "Financial Examiners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 125,
+      "soc": "11-3031",
+      "title": "Financial Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 126,
+      "soc": "33-2011",
+      "title": "Firefighters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 127,
+      "soc": "33-2021",
+      "title": "Fire Inspectors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 128,
+      "soc": "45-3031",
+      "title": "Fishing and Hunting Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 129,
+      "soc": "39-9031",
+      "title": "Fitness Trainers and Instructors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 130,
+      "soc": "53-2031",
+      "title": "Flight Attendants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 131,
+      "soc": "47-2042",
+      "title": "Flooring Installers and Tile and Stone Setters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 132,
+      "soc": "27-1023",
+      "title": "Floral Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 133,
+      "soc": "35-9031",
+      "title": "Food and Beverage Serving and Related Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 134,
+      "soc": "35-2021",
+      "title": "Food Preparation Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 135,
+      "soc": "51-3093",
+      "title": "Food Processing Equipment Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 136,
+      "soc": "11-9051",
+      "title": "Food Service Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 137,
+      "soc": "19-4092",
+      "title": "Forensic Science Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 138,
+      "soc": "45-4011",
+      "title": "Forest and Conservation Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 139,
+      "soc": "13-1131",
+      "title": "Fundraisers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 140,
+      "soc": "11-9171",
+      "title": "Funeral Service Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 141,
+      "soc": "39-3011",
+      "title": "Gambling Services Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 142,
+      "soc": "49-9071",
+      "title": "General Maintenance and Repair Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 143,
+      "soc": "43-9061",
+      "title": "General Office Clerks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 144,
+      "soc": "29-9092",
+      "title": "Genetic Counselors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 145,
+      "soc": "19-3092",
+      "title": "Geographers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 146,
+      "soc": "19-4043",
+      "title": "Geological and Hydrologic Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 147,
+      "soc": "19-2042",
+      "title": "Geoscientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 148,
+      "soc": "47-2121",
+      "title": "Glaziers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 149,
+      "soc": "27-1024",
+      "title": "Graphic Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 150,
+      "soc": "37-3013",
+      "title": "Grounds Maintenance Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 151,
+      "soc": "53-7063",
+      "title": "Hand Laborers and Material Movers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 152,
+      "soc": "47-4041",
+      "title": "Hazardous Materials Removal Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 153,
+      "soc": "17-2111",
+      "title": "Health and Safety Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 154,
+      "soc": "21-1091",
+      "title": "Health Education Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 155,
+      "soc": "29-9021",
+      "title": "Health Information Technologists and Medical Registrars",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 156,
+      "soc": "49-9021",
+      "title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 157,
+      "soc": "53-3032",
+      "title": "Heavy and Tractor-trailer Truck Drivers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 158,
+      "soc": "49-3042",
+      "title": "Heavy Vehicle and Mobile Equipment Service Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 159,
+      "soc": "25-2031",
+      "title": "High School Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 160,
+      "soc": "19-3093",
+      "title": "Historians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 161,
+      "soc": "31-1120",
+      "title": "Home Health and Personal Care Aides",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 162,
+      "soc": "11-3121",
+      "title": "Human Resources Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 163,
+      "soc": "13-1071",
+      "title": "Human Resources Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 164,
+      "soc": "19-2043",
+      "title": "Hydrologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 165,
+      "soc": "27-1021",
+      "title": "Industrial Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 166,
+      "soc": "17-3026",
+      "title": "Industrial Engineering Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 167,
+      "soc": "17-2112",
+      "title": "Industrial Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 168,
+      "soc": "49-9044",
+      "title": "Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 169,
+      "soc": "11-3051",
+      "title": "Industrial Production Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 170,
+      "soc": "43-4071",
+      "title": "Information Clerks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 171,
+      "soc": "15-1212",
+      "title": "Information Security Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 172,
+      "soc": "25-9031",
+      "title": "Instructional Coordinators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 173,
+      "soc": "47-2131",
+      "title": "Insulation Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 174,
+      "soc": "41-3021",
+      "title": "Insurance Sales Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 175,
+      "soc": "13-2053",
+      "title": "Insurance Underwriters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 176,
+      "soc": "27-1025",
+      "title": "Interior Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 177,
+      "soc": "27-3091",
+      "title": "Interpreters and Translators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 178,
+      "soc": "47-2171",
+      "title": "Ironworkers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 179,
+      "soc": "37-2011",
+      "title": "Janitors and Building Cleaners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 180,
+      "soc": "51-9071",
+      "title": "Jewelers and Precious Stone and Metal Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 181,
+      "soc": "23-1023",
+      "title": "Judges and Hearing Officers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 182,
+      "soc": "25-2012",
+      "title": "Kindergarten and Elementary School Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 183,
+      "soc": "13-1075",
+      "title": "Labor Relations Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 184,
+      "soc": "17-1012",
+      "title": "Landscape Architects",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 185,
+      "soc": "23-1011",
+      "title": "Lawyers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 186,
+      "soc": "25-4022",
+      "title": "Librarians and Library Media Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 187,
+      "soc": "25-4031",
+      "title": "Library Technicians and Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 188,
+      "soc": "29-2061",
+      "title": "Licensed Practical and Licensed Vocational Nurses",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 189,
+      "soc": "13-2072",
+      "title": "Loan Officers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 190,
+      "soc": "11-9081",
+      "title": "Lodging Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 191,
+      "soc": "45-4023",
+      "title": "Logging Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 192,
+      "soc": "13-1081",
+      "title": "Logisticians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 193,
+      "soc": "51-4041",
+      "title": "Machinists and Tool and Die Makers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 194,
+      "soc": "13-1111",
+      "title": "Management Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 195,
+      "soc": "39-5092",
+      "title": "Manicurists and Pedicurists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 196,
+      "soc": "17-2121",
+      "title": "Marine Engineers and Naval Architects",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 197,
+      "soc": "13-1161",
+      "title": "Market Research Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 198,
+      "soc": "21-1013",
+      "title": "Marriage and Family Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 199,
+      "soc": "47-2021",
+      "title": "Masonry Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 200,
+      "soc": "31-9011",
+      "title": "Massage Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 201,
+      "soc": "53-7041",
+      "title": "Material Moving Machine Operators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 202,
+      "soc": "43-5061",
+      "title": "Material Recording Clerks",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 203,
+      "soc": "17-2131",
+      "title": "Materials Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 204,
+      "soc": "15-2041",
+      "title": "Mathematicians and Statisticians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 205,
+      "soc": "17-3027",
+      "title": "Mechanical Engineering Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 206,
+      "soc": "17-2141",
+      "title": "Mechanical Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 207,
+      "soc": "11-9111",
+      "title": "Medical and Health Services Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 208,
+      "soc": "31-9092",
+      "title": "Medical Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 209,
+      "soc": "29-2036",
+      "title": "Medical Dosimetrists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 210,
+      "soc": "49-9062",
+      "title": "Medical Equipment Repairers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 211,
+      "soc": "29-2072",
+      "title": "Medical Records Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 212,
+      "soc": "19-1042",
+      "title": "Medical Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 213,
+      "soc": "31-9094",
+      "title": "Medical Transcriptionists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 214,
+      "soc": "13-1121",
+      "title": "Meeting, Convention, and Event Planners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 215,
+      "soc": "51-4122",
+      "title": "Metal and Plastic Machine Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 216,
+      "soc": "19-1022",
+      "title": "Microbiologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 217,
+      "soc": "25-2022",
+      "title": "Middle School Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 218,
+      "soc": "XX-B389",
+      "title": "Military Careers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing work_environment",
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 219,
+      "soc": "17-2151",
+      "title": "Mining and Geological Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 220,
+      "soc": "41-9012",
+      "title": "Models",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 221,
+      "soc": "27-2041",
+      "title": "Music Directors and Composers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 222,
+      "soc": "27-2042",
+      "title": "Musicians and Singers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 223,
+      "soc": "11-9121",
+      "title": "Natural Sciences Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 224,
+      "soc": "15-1244",
+      "title": "Network and Computer Systems Administrators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 225,
+      "soc": "27-3023",
+      "title": "News Analysts, Reporters, and Journalists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 226,
+      "soc": "17-2161",
+      "title": "Nuclear Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 227,
+      "soc": "29-2033",
+      "title": "Nuclear Medicine Technologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 228,
+      "soc": "19-4051",
+      "title": "Nuclear Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 229,
+      "soc": "29-1151",
+      "title": "Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 230,
+      "soc": "31-1132",
+      "title": "Nursing Assistants and Orderlies",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 231,
+      "soc": "19-5011",
+      "title": "Occupational Health and Safety Specialists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 232,
+      "soc": "29-1122",
+      "title": "Occupational Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 233,
+      "soc": "31-2011",
+      "title": "Occupational Therapy Assistants and Aides",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 234,
+      "soc": "47-5071",
+      "title": "Oil and Gas Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 235,
+      "soc": "15-2031",
+      "title": "Operations Research Analysts",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 236,
+      "soc": "29-2081",
+      "title": "Opticians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 237,
+      "soc": "29-1041",
+      "title": "Optometrists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 238,
+      "soc": "29-2091",
+      "title": "Orthotists and Prosthetists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 239,
+      "soc": "47-2141",
+      "title": "Painters, Construction and Maintenance",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 240,
+      "soc": "51-9124",
+      "title": "Painting and Coating Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 241,
+      "soc": "23-2011",
+      "title": "Paralegals and Legal Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 242,
+      "soc": "13-2052",
+      "title": "Personal Financial Advisors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 243,
+      "soc": "37-2021",
+      "title": "Pest Control Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 244,
+      "soc": "17-2171",
+      "title": "Petroleum Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 245,
+      "soc": "29-1051",
+      "title": "Pharmacists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 246,
+      "soc": "29-2052",
+      "title": "Pharmacy Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 247,
+      "soc": "31-9097",
+      "title": "Phlebotomists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 248,
+      "soc": "27-4021",
+      "title": "Photographers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 249,
+      "soc": "31-2021",
+      "title": "Physical Therapist Assistants and Aides",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 250,
+      "soc": "29-1123",
+      "title": "Physical Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 251,
+      "soc": "29-1071",
+      "title": "Physician Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 252,
+      "soc": "29-1216",
+      "title": "Physicians and Surgeons",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 253,
+      "soc": "19-2012",
+      "title": "Physicists and Astronomers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 254,
+      "soc": "47-2152",
+      "title": "Plumbers, Pipefitters, and Steamfitters",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 255,
+      "soc": "29-1081",
+      "title": "Podiatrists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 256,
+      "soc": "33-3051",
+      "title": "Police and Detectives",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 257,
+      "soc": "19-3094",
+      "title": "Political Scientists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 258,
+      "soc": "43-5053",
+      "title": "Postal Service Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 259,
+      "soc": "11-9033",
+      "title": "Postsecondary Education Administrators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 260,
+      "soc": "25-1124",
+      "title": "Postsecondary Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 261,
+      "soc": "51-8013",
+      "title": "Power Plant Operators, Distributors, and Dispatchers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 262,
+      "soc": "11-9031",
+      "title": "Preschool and Childcare Center Directors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 263,
+      "soc": "25-2011",
+      "title": "Preschool Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 264,
+      "soc": "33-9021",
+      "title": "Private Detectives and Investigators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 265,
+      "soc": "21-1092",
+      "title": "Probation Officers and Correctional Treatment Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 266,
+      "soc": "27-2012",
+      "title": "Producers and Directors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 267,
+      "soc": "13-1082",
+      "title": "Project Management Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 268,
+      "soc": "11-9141",
+      "title": "Property, Real Estate, and Community Association Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 269,
+      "soc": "13-2020",
+      "title": "Property Appraisers and Assessors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 270,
+      "soc": "29-2053",
+      "title": "Psychiatric Technicians and Aides",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 271,
+      "soc": "19-3032",
+      "title": "Psychologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 272,
+      "soc": "11-2032",
+      "title": "Public Relations and Fundraising Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 273,
+      "soc": "27-3031",
+      "title": "Public Relations Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 274,
+      "soc": "43-5031",
+      "title": "Public Safety Telecommunicators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 275,
+      "soc": "13-1020",
+      "title": "Purchasing Managers, Buyers, and Purchasing Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 276,
+      "soc": "51-9061",
+      "title": "Quality Control Inspectors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 277,
+      "soc": "29-1124",
+      "title": "Radiation Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 278,
+      "soc": "29-2035",
+      "title": "Radiologic and MRI Technologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 279,
+      "soc": "53-4011",
+      "title": "Railroad Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 280,
+      "soc": "41-9021",
+      "title": "Real Estate Brokers and Sales Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 281,
+      "soc": "43-4171",
+      "title": "Receptionists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 282,
+      "soc": "29-1125",
+      "title": "Recreational Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 283,
+      "soc": "39-9032",
+      "title": "Recreation Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 284,
+      "soc": "29-1141",
+      "title": "Registered Nurses",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 285,
+      "soc": "21-1015",
+      "title": "Rehabilitation Counselors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 286,
+      "soc": "29-1126",
+      "title": "Respiratory Therapists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 287,
+      "soc": "41-2022",
+      "title": "Retail Sales Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 288,
+      "soc": "47-2181",
+      "title": "Roofers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 289,
+      "soc": "41-9031",
+      "title": "Sales Engineers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 290,
+      "soc": "11-2022",
+      "title": "Sales Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 291,
+      "soc": "21-1012",
+      "title": "School and Career Counselors and Advisors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 292,
+      "soc": "43-6013",
+      "title": "Secretaries and Administrative Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 293,
+      "soc": "41-3031",
+      "title": "Securities, Commodities, and Financial Services Sales Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 294,
+      "soc": "33-9032",
+      "title": "Security Guards and Gambling Surveillance Officers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 295,
+      "soc": "51-9141",
+      "title": "Semiconductor Processing Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 296,
+      "soc": "27-1027",
+      "title": "Set and Exhibit Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 297,
+      "soc": "47-2211",
+      "title": "Sheet Metal Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 298,
+      "soc": "39-5094",
+      "title": "Skincare Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 299,
+      "soc": "49-3051",
+      "title": "Small Engine Mechanics",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 300,
+      "soc": "11-9151",
+      "title": "Social and Community Service Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 301,
+      "soc": "21-1093",
+      "title": "Social and Human Service Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 302,
+      "soc": "21-1022",
+      "title": "Social Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 303,
+      "soc": "19-3041",
+      "title": "Sociologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 304,
+      "soc": "15-1252",
+      "title": "Software Developers, Quality Assurance Analysts, and Testers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 305,
+      "soc": "47-2231",
+      "title": "Solar Photovoltaic Installers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 306,
+      "soc": "25-2057",
+      "title": "Special Education Teachers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 307,
+      "soc": "27-1014",
+      "title": "Special Effects Artists and Animators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 308,
+      "soc": "29-1127",
+      "title": "Speech-Language Pathologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 309,
+      "soc": "51-8021",
+      "title": "Stationary Engineers and Boiler Operators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 310,
+      "soc": "21-1018",
+      "title": "Substance Abuse, Behavioral Disorder, and Mental Health Counselors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 311,
+      "soc": "29-9093",
+      "title": "Surgical Assistants and Technologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 312,
+      "soc": "17-3031",
+      "title": "Surveying and Mapping Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 313,
+      "soc": "17-1022",
+      "title": "Surveyors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 314,
+      "soc": "19-3022",
+      "title": "Survey Researchers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 315,
+      "soc": "13-2081",
+      "title": "Tax Examiners and Collectors, and Revenue Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 316,
+      "soc": "53-3053",
+      "title": "Taxi Drivers, Shuttle Drivers, and Chauffeurs",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 317,
+      "soc": "25-9045",
+      "title": "Teacher Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 318,
+      "soc": "27-3042",
+      "title": "Technical Writers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 319,
+      "soc": "49-2021",
+      "title": "Telecommunications Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 320,
+      "soc": "43-3071",
+      "title": "Tellers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 321,
+      "soc": "11-1021",
+      "title": "Top Executives",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 322,
+      "soc": "39-7010",
+      "title": "Tour and Travel Guides",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 323,
+      "soc": "11-3131",
+      "title": "Training and Development Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 324,
+      "soc": "13-1151",
+      "title": "Training and Development Specialists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 325,
+      "soc": "11-3071",
+      "title": "Transportation, Storage, and Distribution Managers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 326,
+      "soc": "41-3041",
+      "title": "Travel Agents",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 327,
+      "soc": "25-3041",
+      "title": "Tutors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 328,
+      "soc": "27-2023",
+      "title": "Umpires, Referees, and Other Sports Officials",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 329,
+      "soc": "19-3051",
+      "title": "Urban and Regional Planners",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 330,
+      "soc": "29-1131",
+      "title": "Veterinarians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 331,
+      "soc": "31-9096",
+      "title": "Veterinary Assistants and Laboratory Animal Caretakers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 332,
+      "soc": "29-2056",
+      "title": "Veterinary Technologists and Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 333,
+      "soc": "35-3031",
+      "title": "Waiters and Waitresses",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 334,
+      "soc": "51-8031",
+      "title": "Water and Wastewater Treatment Plant and System Operators",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 335,
+      "soc": "53-5031",
+      "title": "Water Transportation Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 336,
+      "soc": "15-1255",
+      "title": "Web Developers and Digital Designers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 337,
+      "soc": "51-4121",
+      "title": "Welders, Cutters, Solderers, and Brazers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 338,
+      "soc": "41-4011",
+      "title": "Wholesale and Manufacturing Sales Representatives",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 339,
+      "soc": "49-9081",
+      "title": "Wind Turbine Technicians",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 340,
+      "soc": "51-7042",
+      "title": "Woodworkers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 341,
+      "soc": "27-3043",
+      "title": "Writers and Authors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 342,
+      "soc": "19-1023",
+      "title": "Zoologists and Wildlife Biologists",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    }
+  ],
+  "duplicates": [],
+  "salary_stats": {
+    "min": 31040,
+    "max": 239200,
+    "avg": 75107
+  },
+  "generated_at": "2025-10-27T00:58:23.369Z"
+}
