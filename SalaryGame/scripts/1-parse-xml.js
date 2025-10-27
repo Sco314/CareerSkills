@@ -26,14 +26,41 @@ const OUTPUT_FILE = path.join(__dirname, '../../data/processed/careers-full.json
  * @returns {object} Extracted career data
  */
 function extractCareerData(occupation, id) {
-  const socCode = extractText(safeExtract(occupation, 'soc_coverage.soc_code', ''));
+  let socCode = extractText(safeExtract(occupation, 'soc_coverage.soc_code', ''));
   const title = extractText(safeExtract(occupation, 'title', ''));
+
+  // Handle special case: Military Careers has no SOC code, use occupation code
+  if (!socCode || socCode.trim() === '') {
+    const occCode = extractText(safeExtract(occupation, 'occupation_code', ''));
+    socCode = occCode ? `XX-${occCode}` : 'XX-0000';
+  }
+
   const titleShort = extractText(safeExtract(occupation, 'occupation_name_short_singular', title));
   const description = stripHtml(extractText(safeExtract(occupation, 'description', '')));
 
-  const salaryAnnual = parseInt10(extractText(safeExtract(occupation, 'quick_facts.qf_median_pay_annual.value', '')));
+  let salaryAnnual = parseInt10(extractText(safeExtract(occupation, 'quick_facts.qf_median_pay_annual.value', '')));
   const salaryHourly = parseNumber(extractText(safeExtract(occupation, 'quick_facts.qf_median_pay_hourly.value', '')));
   const salaryRange = extractText(safeExtract(occupation, 'quick_facts.qf_median_pay_annual.range', ''));
+  const salaryNote = extractText(safeExtract(occupation, 'quick_facts.qf_median_pay_annual.note', ''));
+
+  // If annual salary is missing but hourly is available, calculate it
+  // Annual = Hourly × 2080 hours (40 hours/week × 52 weeks)
+  if ((!salaryAnnual || salaryAnnual === 0) && salaryHourly && salaryHourly > 0) {
+    salaryAnnual = Math.round(salaryHourly * 2080);
+  }
+
+  // If still no salary, check the note field (e.g., "≥$239,200")
+  if ((!salaryAnnual || salaryAnnual === 0) && salaryNote) {
+    const noteMatch = salaryNote.match(/\$?([\d,]+)/);
+    if (noteMatch) {
+      salaryAnnual = parseInt10(noteMatch[1]);
+    }
+  }
+
+  // Last resort: use national median as fallback for careers with no wage data
+  if (!salaryAnnual || salaryAnnual === 0) {
+    salaryAnnual = 49500; // BLS national median wage
+  }
 
   let education = extractText(safeExtract(occupation, 'quick_facts.qf_entry_level_education.value', ''));
   if (!education || education.trim() === '') {

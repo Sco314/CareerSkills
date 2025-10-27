@@ -13,7 +13,7 @@ const OUTPUT_FILE = path.join(__dirname, '../../data/processed/validation-report
  */
 const VALIDATION_RULES = {
   required_fields: ['id', 'soc', 'title', 'description', 'salary', 'education', 'demand'],
-  soc_format: /^[0-9]{2}-[0-9]{4}$/,
+  soc_format: /^([0-9]{2}-[0-9]{4}|XX-.+)$/, // Allow XX- prefix for special cases
   salary_min: 0,
   salary_max: 500000,
   description_min_length: 10,

@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total_careers": 335,
-    "valid_careers": 335,
+    "total_careers": 342,
+    "valid_careers": 342,
     "invalid_careers": 0,
-    "careers_with_warnings": 335,
+    "careers_with_warnings": 342,
     "total_errors": 0,
-    "total_warnings": 335,
+    "total_warnings": 343,
     "duplicate_socs": 0
   },
   "validation_results": [
@@ -13,6 +13,16 @@
       "id": 1,
       "soc": "13-2011",
       "title": "Accountants and Auditors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 2,
+      "soc": "27-2011",
+      "title": "Actors",
       "valid": true,
       "errors": [],
       "warnings": [
@@ -163,6 +173,16 @@
       "id": 17,
       "soc": "39-2011",
       "title": "Animal Care and Service Workers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 18,
+      "soc": "27-2091",
+      "title": "Announcers and DJs",
       "valid": true,
       "errors": [],
       "warnings": [
@@ -840,6 +860,16 @@
       ]
     },
     {
+      "id": 86,
+      "soc": "27-2031",
+      "title": "Dancers and Choreographers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
       "id": 87,
       "soc": "15-1242",
       "title": "Database Administrators and Architects",
@@ -1243,6 +1273,16 @@
       "id": 127,
       "soc": "33-2021",
       "title": "Fire Inspectors",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 128,
+      "soc": "45-3031",
+      "title": "Fishing and Hunting Workers",
       "valid": true,
       "errors": [],
       "warnings": [
@@ -2140,6 +2180,17 @@
       ]
     },
     {
+      "id": 218,
+      "soc": "XX-B389",
+      "title": "Military Careers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing work_environment",
+        "Missing growth rate"
+      ]
+    },
+    {
       "id": 219,
       "soc": "17-2151",
       "title": "Mining and Geological Engineers",
@@ -2163,6 +2214,16 @@
       "id": 221,
       "soc": "27-2041",
       "title": "Music Directors and Composers",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 222,
+      "soc": "27-2042",
+      "title": "Musicians and Singers",
       "valid": true,
       "errors": [],
       "warnings": [
@@ -2453,6 +2514,16 @@
       "id": 251,
       "soc": "29-1071",
       "title": "Physician Assistants",
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "Missing growth rate"
+      ]
+    },
+    {
+      "id": 252,
+      "soc": "29-1216",
+      "title": "Physicians and Surgeons",
       "valid": true,
       "errors": [],
       "warnings": [
@@ -3363,8 +3434,8 @@
   "duplicates": [],
   "salary_stats": {
     "min": 31040,
-    "max": 198100,
-    "avg": 74971
+    "max": 239200,
+    "avg": 75107
   },
-  "generated_at": "2025-10-27T00:40:36.105Z"
+  "generated_at": "2025-10-27T00:58:23.369Z"
 }

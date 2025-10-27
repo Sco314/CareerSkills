@@ -23,6 +23,29 @@
     "source": "BLS OOH 13-2011"
   },
   {
+    "id": 2,
+    "soc": "27-2011",
+    "title": "Actors",
+    "title_short": "Actor",
+    "description": "Actors express ideas and portray characters in theater, film, television, and other performing arts media.",
+    "salary": 48526,
+    "salary_range": "The annual wage is not available.",
+    "salary_hourly": 23.33,
+    "education": "Some college, no degree",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 57000,
+    "work_environment": "Work Environment Actors work in various settings, including production studios, theaters, and theme parks, or on location. Work assignments are usually short, ranging from 1 day to a few months....",
+    "metadata": {
+      "salary_tier": "mid",
+      "cluster": "media",
+      "education_level": 2
+    },
+    "source": "BLS OOH 27-2011"
+  },
+  {
     "id": 3,
     "soc": "15-2011",
     "title": "Actuaries",
@@ -366,6 +389,29 @@
       "education_level": 1
     },
     "source": "BLS OOH 39-2011"
+  },
+  {
+    "id": 18,
+    "soc": "27-2091",
+    "title": "Announcers and DJs",
+    "title_short": "Announcer or DJ",
+    "description": "Announcers present news and sports or may interview guests on media such as radio and television. Disc jockeys (DJs) act as masters of ceremonies (emcees) or play recorded music at weddings, parties, or clubs.",
+    "salary": 45115,
+    "salary_range": "The annual wage is not available.",
+    "salary_hourly": 21.69,
+    "education": "Varies",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 39500,
+    "work_environment": "Work Environment Many announcers and DJs work in radio and television studios or are self-employed. Some work part time, and schedules might include early mornings, nights, weekends, and holidays.",
+    "metadata": {
+      "salary_tier": "mid",
+      "cluster": "media",
+      "education_level": 0
+    },
+    "source": "BLS OOH 27-2091"
   },
   {
     "id": 19,
@@ -1909,6 +1955,29 @@
     "source": "BLS OOH 43-4051"
   },
   {
+    "id": 86,
+    "soc": "27-2031",
+    "title": "Dancers and Choreographers",
+    "title_short": "Dancer or Choreographer",
+    "description": "Dancers and choreographers use dance performances to express ideas and stories.",
+    "salary": 51022,
+    "salary_range": "The annual wage is not available.",
+    "salary_hourly": 24.53,
+    "education": "Varies",
+    "work_experience": "",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 17000,
+    "work_environment": "Work Environment Some dancers work in performing arts companies, or are self-employed. Choreographers may work in dance schools, and others may work as self-employed choreographers.",
+    "metadata": {
+      "salary_tier": "mid",
+      "cluster": "other",
+      "education_level": 0
+    },
+    "source": "BLS OOH 27-2031"
+  },
+  {
     "id": 87,
     "soc": "15-1242",
     "title": "Database Administrators and Architects",
@@ -2850,6 +2919,29 @@
       "education_level": 0
     },
     "source": "BLS OOH 33-2021"
+  },
+  {
+    "id": 128,
+    "soc": "45-3031",
+    "title": "Fishing and Hunting Workers",
+    "title_short": "Fishing or Hunting Worker",
+    "description": "Fishing and hunting workers catch and trap various types of animal life.",
+    "salary": 49500,
+    "salary_range": "The annual wage is not available.",
+    "salary_hourly": null,
+    "education": "No formal educational credential",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 21900,
+    "work_environment": "Work Environment The work environment for fishing and hunting operations varies with the region, body of water or land, and kinds of animals sought. Fishing and hunting workers often work under...",
+    "metadata": {
+      "salary_tier": "mid",
+      "cluster": "other",
+      "education_level": 1
+    },
+    "source": "BLS OOH 45-3031"
   },
   {
     "id": 129,
@@ -4899,6 +4991,29 @@
     "source": "BLS OOH 25-2022"
   },
   {
+    "id": 218,
+    "soc": "XX-B389",
+    "title": "Military Careers",
+    "title_short": "Member of the Armed Forces",
+    "description": "Members of the U.S. military service train for and perform a variety of tasks in order to maintain the U.S. national defense. Servicemembers work in occupations specific to the military, such as fighter pilots or infantrymen. Many other members work...",
+    "salary": 49500,
+    "salary_range": "",
+    "salary_hourly": null,
+    "education": "Varies",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": null,
+    "work_environment": "",
+    "metadata": {
+      "salary_tier": "mid",
+      "cluster": "trades",
+      "education_level": 0
+    },
+    "source": "BLS OOH XX-B389"
+  },
+  {
     "id": 219,
     "soc": "17-2151",
     "title": "Mining and Geological Engineers",
@@ -4966,6 +5081,29 @@
       "education_level": 4
     },
     "source": "BLS OOH 27-2041"
+  },
+  {
+    "id": 222,
+    "soc": "27-2042",
+    "title": "Musicians and Singers",
+    "title_short": "Musician or Singer",
+    "description": "Musicians and singers play instruments or sing for live audiences and in recording studios.",
+    "salary": 88296,
+    "salary_range": "The annual wage is not available.",
+    "salary_hourly": 42.45,
+    "education": "No formal educational credential",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 169800,
+    "work_environment": "Work Environment Musicians and singers often perform in settings such as concert halls, churches, and clubs. Part-time work is common, and work schedules may vary and include mornings, nights, or...",
+    "metadata": {
+      "salary_tier": "upper-mid",
+      "cluster": "other",
+      "education_level": 1
+    },
+    "source": "BLS OOH 27-2042"
   },
   {
     "id": 223,
@@ -5633,6 +5771,29 @@
       "education_level": 5
     },
     "source": "BLS OOH 29-1071"
+  },
+  {
+    "id": 252,
+    "soc": "29-1216",
+    "title": "Physicians and Surgeons",
+    "title_short": "Physician or Surgeon",
+    "description": "Physicians and surgeons diagnose and treat injuries or illnesses and address health maintenance.",
+    "salary": 239200,
+    "salary_range": "$100,000 or more",
+    "salary_hourly": null,
+    "education": "Doctoral or professional degree",
+    "work_experience": "None",
+    "demand": "Unknown – null% (2025–2034)",
+    "growth_rate": null,
+    "growth_category": "Unknown",
+    "job_count": 839000,
+    "work_environment": "Work Environment Physicians and surgeons work in both clinical and nonclinical settings. Clinical settings include physicians' offices and hospitals; nonclinical settings include government agencies,...",
+    "metadata": {
+      "salary_tier": "high",
+      "cluster": "healthcare",
+      "education_level": 6
+    },
+    "source": "BLS OOH 29-1216"
   },
   {
     "id": 253,
